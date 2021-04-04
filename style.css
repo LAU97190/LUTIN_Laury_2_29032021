@@ -48,8 +48,287 @@ table {
 	border-spacing: 0;
 }
 
+#bloc_page
+{
+	width: 1440px;
+	height: 1884px;
+	margin-left: 55px;
+	margin-right: 55px;
+	font-family: 'Raleway'Times New, Roman, serif;
+}
+
 @font-face
 { font-family: Raleway;
-  src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype'); 
-  src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype');   
+  src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');    
 }
+
+header
+{
+	border: solid white;
+	width: 1440px;
+	height: 426px ;
+	font-family: 'Raleway'Times New, Roman, serif;
+}
+
+.logo_reservia
+{
+	float: left;
+	width: 95px;
+	height: 29px;
+	margin-top: 53px;
+
+}
+
+nav
+{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 61px;
+	
+}
+
+ul
+{
+	display: flex;
+	justify-content: space-around;
+	margin-right: 24px;
+	
+}
+
+li
+{
+	margin-right: 69px;
+	color: #0065FC;
+}
+
+a
+{
+	text-decoration: none;	
+}
+
+li:hover
+{
+	text-decoration: none;
+	color:green;
+
+}
+
+ul:visited
+{
+	color: black;
+}
+
+h1
+{
+	margin-top: 53px;
+	margin-bottom: 15px;
+	font-family: 'Raleway'Times New, Roman, serif;
+	size: 18px;
+	font-weight: bold;
+	
+}
+
+p
+{
+	font-size: small;
+}
+
+
+
+#barre
+{
+	display: flex;
+	justify-content:flex-start;
+	width: 305px;
+	height: 36px;
+	margin-top: 25px;
+	border: #F2F2F2;
+	border-radius: 10px;
+}
+
+.fa1
+{	
+	display: flex;
+	flex: 0.5;
+	justify-content: center;
+	align-self: center;
+	width: 53px;
+	height: 26.5px;
+	background-color: #F2F2F2;
+	padding-top: 10px;
+	padding-right: 6px;
+	padding-left: 5px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+em
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 2;
+	background-color:#0065FC;
+	border-radius: 0px 10px 10px 0px;
+	padding-top: 2,5px;
+	color:white
+}
+
+.search
+{
+	border-color: #F2F2F2;
+}
+
+h2
+{
+	margin-top: 50px;	
+	font-weight: bold;
+}
+
+#fontawesome
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 934px;
+	height: 20px;
+	margin-top: -16px;
+	margin-left: 35px;	
+	font-weight: bold;
+	
+}
+
+#fa_bloc1
+{
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	margin-left: 35px;
+	border: solid #F2F2F2;
+	width: 194px;
+	height: 50px;
+	border-radius: 30px;
+	box-shadow:violet;
+	
+}
+
+#fa_bloc2
+{
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	margin-left: 35px;
+	border: solid #F2F2F2;
+	width: 154px;
+	height: 50px;
+	border-radius: 30px;
+}
+
+#fa_bloc3
+{
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	margin-left: 35px;
+	border: solid #F2F2F2;
+	width: 183px;
+	height: 50px;
+	border-radius: 30px;
+}
+
+#fa_bloc4
+{
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	margin-left: 35px;
+	border: solid #F2F2F2;
+	width: 240px;
+	height: 50px;
+	border-radius: 30px;
+}
+
+#fa_bloc1:hover,#fa_bloc2:hover,#fa_bloc3:hover,#fa_bloc4:hover
+{
+	text-decoration:none;
+	color: green;
+}
+
+h3
+{
+	margin-top: 18px;
+	margin-left: 30px;
+	text-shadow: blue;
+}
+
+.money
+{
+	color: #0065FC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-color: #DEEBFF ;
+	border-radius: 30px;
+}
+
+.child
+{
+	color: #0065FC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-color: #DEEBFF ;
+	border-radius: 30px;
+}
+
+.heart
+{
+	color: #0065FC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-color: #DEEBFF ;
+	border-radius: 30px;
+}
+
+.dog
+{
+	color: #0065FC;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	background-color: #DEEBFF ;
+	border-radius: 30px;
+}
+
+#fa_info
+{
+	display: flex;
+	justify-content: flex-start;
+	margin-top:53px ;
+	
+	
+}
+
+.info
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -10px;
+	width: 25px;
+	height: 25px;
+	margin-right: 12px;	
+	border: solid #DEEBFF;
+	border-radius: 30px;
+	color: blue;
+}
+
+
