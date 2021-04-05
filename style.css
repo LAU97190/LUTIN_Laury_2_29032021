@@ -182,6 +182,7 @@ h2
 {
 	margin-top: 50px;	
 	font-weight: bold;
+	font-size: 13px;
 }
 
 #fontawesome
@@ -313,8 +314,6 @@ h3
 	display: flex;
 	justify-content: flex-start;
 	margin-top:53px ;
-	
-	
 }
 
 .info
@@ -331,4 +330,740 @@ h3
 	color: blue;
 }
 
+section
+{
+	display: flex;
+	border: solid gray;
+	width: 1342px;
+	height: 1240px ;
+	font-family: 'Raleway'Times New, Roman, serif;
+	
+}
 
+#marseille
+{
+	width: 880px;
+	height: 625px;
+	background-color:#F2F2F2;
+	border-radius: 30px;
+	margin-right: 40px;
+	font-family: 'Raleway'Times New, Roman, serif;
+	
+	
+}
+
+h4
+{
+	size: 18px;
+	font-weight: bold;
+	margin-top: 46px;
+	margin-left: 42px;
+	font-family: 'Raleway'Times New, Roman, serif;
+	text-align: justify;
+}
+
+#bloca_top
+{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-right: 40px;
+	margin-left: 40px;
+	
+}
+
+#cannebiere_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	align-items: flex-end;
+	width: 245px ;
+	height: 200px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+	margin-right: 30px;
+}
+
+#photo_cannebiere
+{
+	float: left;
+	width: 235px; ;
+	height: 115px;
+	border-radius: 10px 10px 0px 0px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+h5
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+}
+
+h6
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+#star_ca
+{
+	display: flex;
+	margin-top: 5px;
+	margin-right: 160px;
+	width: 68px;
+	height: 13px;
+}
+
+.ca1
+{
+	color: #0065FC;
+	
+} 
+
+.ca2
+{
+	color: #F2F2F2; 
+}
+
+
+#hport_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	align-items: flex-end;
+	width: 245px ;
+	height: 200px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+	margin-right: 30px;
+}
+
+#photo_hport
+{
+	float: left;
+	width: 235px; ;
+	height: 115px;
+	border-radius: 10px 10px 0px 0px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+h5
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	
+
+}
+
+h6
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+#star_3
+{
+	display: flex;
+	margin-top: 5px;
+	margin-right: 160px;
+	width: 68px;
+	height: 13px;
+	color: #0065FC;
+	
+}
+
+
+#mouettes_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	align-items: flex-end;
+	width: 245px ;
+	height: 200px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+
+	
+
+}
+
+#photo_mouettes
+{
+	float: left;
+	width: 235px; ;
+	height: 115px;
+	border-radius: 10px 10px 0px 0px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+h5
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	
+
+}
+
+h6
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+#star
+{
+	display: flex;
+	margin-top: 5px;
+	margin-right: 160px;
+	width: 68px;
+	height: 13px;
+}
+
+.mou1
+{
+	color: #0065FC;
+} 
+
+.mou2
+{
+	color: #F2F2F2; 
+}
+
+#bloca_bottom
+{
+	display: flex;
+	flex-wrap: nowrap;
+	margin-right: 40px;
+	margin-left: 40px;
+	
+}
+
+#mer_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	align-items: flex-end;
+	width: 245px ;
+	height: 200px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+	margin-right: 30px;
+}
+
+#photo_mer
+{
+	float: left;
+	width: 235px; ;
+	height: 115px;
+	border-radius: 10px 10px 0px 0px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+h5
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	
+
+}
+
+h6
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+#star_mer
+{
+	display: flex;
+	margin-top: 5px;
+	margin-right: 160px;
+	width: 68px;
+	height: 13px;	
+}
+
+.mer1
+{
+	color: #0065FC;
+} 
+
+.mer2
+{
+	color: #F2F2F2; 
+}
+
+#panier_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	align-items: flex-end;
+	width: 245px ;
+	height: 200px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+	margin-right: 30px;
+}
+
+#photo_panier
+{
+	float: left;
+	width: 235px; ;
+	height: 115px;
+	border-radius: 10px 10px 0px 0px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+h5
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	
+
+}
+
+h6
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+#star_pa
+{
+	display: flex;
+	margin-top: 5px;
+	margin-right: 160px;
+	width: 68px;
+	height: 13px;	
+}
+
+.pa1
+{
+	color: #0065FC;
+} 
+
+.pa2
+{
+	color: #F2F2F2; 
+}
+
+
+#amina_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-end;
+	align-items: flex-end;
+	width: 245px ;
+	height: 200px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+
+	
+
+}
+
+#photo_amina
+{
+	float: left;
+	width: 235px; ;
+	height: 115px;
+	border-radius: 10px 10px 0px 0px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+h5
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+	
+
+}
+
+h6
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 12px;
+	margin-top: 12px;
+	margin-left: 18px;
+}
+
+#star
+{
+	display: flex;
+	justify-self: center;
+	margin-top: 5px;
+	color: #0065FC;
+	width: 68px;
+	height: 13px;
+}
+
+#populaire
+{
+	position: relative;
+	width: 420px;
+	height: 625px;
+	background-color:#F2F2F2;
+	border-radius: 30px;
+	
+}
+	
+#chart
+{
+	float: right;
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-start;
+	margin-top: 46px;
+	margin-right: 45px;
+}
+#blocb
+{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	margin-right: 40px;
+	margin-left: 40px;	
+}
+
+/* Bloc hôtel le soleil */
+#text_soleil
+{
+display: f;
+flex-direction: row-reverse;
+align-items: flex-start;
+align-self: start;
+text-align:start;
+text-align:left;
+
+}
+
+#soleil_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-start;
+	width: 345px ;
+	height: 145px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+
+}
+
+#photo_soleil
+{
+	float: left;
+	width: 128px; ;
+	height: 135px;
+	border-radius: 10px 0px 0px 10px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;	
+}
+
+#soleil_bloc h5
+{
+	display: inline-block;
+	align-self: start;
+	vertical-align: text-top;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -116px;
+	margin-left: 155px;
+
+}
+
+#soleil_bloc h6
+{
+	display: inline-block;
+	align-self: start;
+	vertical-align: top;
+	font-size: 12px;
+	margin-top: -95px;
+	margin-left: 155px;
+	margin-bottom: 35px;
+}
+
+#star_so
+{
+	display: flex;
+	justify-self: flex-end;
+	align-self: flex-start;
+	width: 68px;
+	height: 13px;
+	margin-left: 155px;
+	margin-top: -55px;	
+}
+
+.so1
+{
+	color: #0065FC;
+} 
+
+.so2
+{
+	color: #F2F2F2;
+} 
+
+/* Bloc Au coeur de l'eau chambre d'hôtes */
+#text_au_coeur
+{
+display: flex;
+flex-direction: row-reverse;
+align-items: flex-start;
+align-self: start;
+text-align:start;
+text-align:left;
+
+}
+
+#au_coeur_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-start;
+	width: 345px ;
+	height: 145px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+
+}
+
+#photo_au_coeur
+{
+	float: left;
+	width: 128px; ;
+	height: 135px;
+	border-radius: 10px 0px 0px 10px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+#au_coeur_bloc h5
+{
+	display: inline-block;
+	align-self: start;
+	vertical-align: text-top;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -116px;
+	margin-left: 155px;
+
+}
+
+#au_coeur_bloc h6
+{
+	display: inline-block;
+	align-self: start;
+	vertical-align: top;
+	font-size: 12px;
+	margin-top: -95px;
+	margin-left: 155px;
+	margin-bottom: 35px;
+}
+
+#star_coeur
+{
+	display: flex;
+	justify-self: flex-end;
+	align-self: flex-start;
+	width: 68px;
+	height: 13px;
+	margin-left: 155px;
+	margin-top: -55px;	
+}
+
+.coeur1
+{
+	color: #0065FC;
+} 
+
+.coeur2
+{
+	color: #F2F2F2;
+} 
+
+
+
+/* Bloc hôtel tout bleu et blanc */
+#text_bleu
+{
+display: f;
+flex-direction: row-reverse;
+align-items: flex-start;
+align-self: start;
+text-align:start;
+text-align:left;
+
+}
+
+#bleu_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: flex-start;
+	width: 345px ;
+	height: 145px;
+	border:solid white;
+	background-color: white;
+	border-radius: 30px;
+	margin-top: 25px ;
+
+}
+
+#photo_bleu
+{
+	float: left;
+	width: 128px; ;
+	height: 135px;
+	border-radius: 10px 0px 0px 10px; 
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	
+	
+}
+
+#bleu_bloc h5
+{
+	display: inline-block;
+	align-self: start;
+	vertical-align: text-top;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -116px;
+	margin-left: 155px;
+
+}
+
+#bleu_bloc h6
+{
+	display: inline-block;
+	align-self: start;
+	vertical-align: top;
+	font-size: 12px;
+	margin-top: -95px;
+	margin-left: 155px;
+	
+}
+
+#star_bleu
+{
+	display: flex;
+	justify-self: flex-end;
+	align-self: flex-start;
+	width: 68px;
+	height: 13px;
+	margin-left: 155px;
+	margin-top: -55px;	
+}
+
+.bleu1
+{
+	color: #0065FC;
+} 
+
+.bleu2
+{
+	color: #F2F2F2;
+} 
+
+#prix
+{
+	font-weight: bolder;
+}
+
+#afficher
+{
+	margin-left: 45px;
+	margin-bottom: 50px;
+}
