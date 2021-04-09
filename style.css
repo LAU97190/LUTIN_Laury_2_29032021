@@ -54,7 +54,7 @@ table {
 	height: 1884px;
 	margin-left: 55px;
 	margin-right: 55px;
-	font-family: 'Raleway'Times New, Roman, serif;
+	font-family: 'Raleway'Times New, Roman;
 }
 
 @font-face
@@ -62,12 +62,14 @@ table {
   src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');    
 }
 
+
+/* Bloc hearder */
 header
 {
 	border: solid white;
 	width: 1440px;
 	height: 426px ;
-	font-family: 'Raleway'Times New, Roman, serif;
+	font-family: 'Raleway'Times New, Roman;
 }
 
 .logo_reservia
@@ -99,6 +101,7 @@ li
 {
 	margin-right: 69px;
 	color: #0065FC;
+	
 }
 
 a
@@ -110,7 +113,13 @@ li:hover
 {
 	text-decoration: none;
 	color:green;
+	border-top: 2px solid black;
+	
+}
 
+nav a:hover 
+{
+	border-top: 2px solid black;
 }
 
 ul:visited
@@ -122,9 +131,10 @@ h1
 {
 	margin-top: 53px;
 	margin-bottom: 15px;
-	font-family: 'Raleway'Times New, Roman, serif;
-	size: 18px;
+	font-family: 'Raleway'Times New, Roman;
+	font-size: 18px;
 	font-weight: bold;
+	text-align: justify;
 	
 }
 
@@ -148,10 +158,8 @@ p
 
 .fa1
 {	
-	display: flex;
+	text-align: center;
 	flex: 0.5;
-	justify-content: center;
-	align-self: center;
 	width: 53px;
 	height: 26.5px;
 	background-color: #F2F2F2;
@@ -178,157 +186,146 @@ em
 	border-color: #F2F2F2;
 }
 
-h2
+#filtre
 {
+	display: inline-block;
 	margin-top: 50px;	
 	font-weight: bold;
 	font-size: 13px;
 }
 
+/* pour déplacer le cercle + fontawsome */
+.fa-stack
+{
+margin-top: 6px;
+margin-right: 6px;
+color: #0065FC;
+
+ 
+}
+
+.fa-circle /* pour déplacer le cercle */
+{
+   font-size: 50px;
+    color:#F2F2F2;
+	margin-top: 1px;
+   margin-left: -1px;
+
+}
+
+/* pour déplacer le fontawsome */
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog 
+{
+    font-size: 20px;
+    margin-left: 12px;
+    margin-top: 7px;
+    background-color:#DEEBFF ;
+}
+
 #fontawesome
 {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
 	width: 934px;
 	height: 20px;
-	margin-top: -16px;
-	margin-left: 35px;	
-	font-weight: bold;
-	
+	margin-left: 35px;
+	margin-bottom: 45px;
 }
 
-#fa_bloc1
+#fa_bloc
 {
-	display: flex;
-	justify-content: flex-start;
-	align-self: center;
-	margin-left: 35px;
-	border: solid #F2F2F2;
+	display: inline-block;
+	margin-top: -30px;
+    border: solid #F2F2F2;
 	width: 194px;
-	height: 50px;
+	height: 47px;
 	border-radius: 30px;
-	box-shadow:violet;
+	margin-right: 25px;
+	margin-left: 35px;
+}
+
+#bloc_familial
+{
+	display: inline-block;
+	margin-top: -30px;
+    border: solid #F2F2F2;
+	width: 151px;
+	height: 47px;
+	border-radius: 30px;
+	margin-right: 25px;
+	margin-left: 35px;
+}
+
+#bloc_romantique
+{
+	display: inline-block;
+	margin-top: -30px;
+    border: solid #F2F2F2;
+	width: 182px;
+	height: 47px;
+	border-radius: 30px;
+	margin-right: 25px;
+	margin-left: 35px;
+}
+
+#bloc_annimaux
+{
+	display: inline-block;
+	margin-top: -30px;
+    border: solid #F2F2F2;
+	width: 240px;
+	height: 47px;
+	border-radius: 30px;
+	margin-right: 25px;
+	margin-left: 35px;
+}
+.name 
+{   
+position: absolute;
+margin-top: 15px;
+margin-left: 18px;	
+font-size: 15px;
+font-family: 'Raleway'Times New, Roman;
+}
+
+
+
+
+/* pour déplacer le cercle + fontawsome */
+.fa-stackinfo
+{
+margin-top: 6px;
+margin-right: 6px;
+color: #0065FC;
+
+}
+
+.fa-stack-2x /* pour déplacer le cercle */
+{
+   	font-size: 50px;
+	color:#F2F2F2;
+	margin-top: -3px;
 	
 }
 
-#fa_bloc2
+/* pour déplacer le fontawsome */
+.fa-info 
 {
-	display: flex;
-	justify-content: flex-start;
-	align-self: center;
-	margin-left: 35px;
-	border: solid #F2F2F2;
-	width: 154px;
-	height: 50px;
-	border-radius: 30px;
+    position: absolute;
+	font-size: 20px;
+    margin-left: 10px;
+    margin-top: 6px;
+	padding-left: 8px;
+    background-color:#DEEBFF ;
 }
 
-#fa_bloc3
-{
-	display: flex;
-	justify-content: flex-start;
-	align-self: center;
-	margin-left: 35px;
-	border: solid #F2F2F2;
-	width: 183px;
-	height: 50px;
-	border-radius: 30px;
+.infoname
+{   
+position: absolute;
+margin-left: 13px;	
+font-size: 15px;
+font-family: 'Raleway'Times New, Roman;
 }
 
-#fa_bloc4
-{
-	display: flex;
-	justify-content: flex-start;
-	align-self: center;
-	margin-left: 35px;
-	border: solid #F2F2F2;
-	width: 240px;
-	height: 50px;
-	border-radius: 30px;
-}
-
-#fa_bloc1:hover,#fa_bloc2:hover,#fa_bloc3:hover,#fa_bloc4:hover
-{
-	text-decoration:none;
-	color: green;
-}
-
-h3
-{
-	margin-top: 18px;
-	margin-left: 30px;
-	text-shadow: blue;
-}
-
-.money
-{
-	color: #0065FC;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50px;
-	height: 50px;
-	background-color: #DEEBFF ;
-	border-radius: 30px;
-}
-
-.child
-{
-	color: #0065FC;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50px;
-	height: 50px;
-	background-color: #DEEBFF ;
-	border-radius: 30px;
-}
-
-.heart
-{
-	color: #0065FC;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50px;
-	height: 50px;
-	background-color: #DEEBFF ;
-	border-radius: 30px;
-}
-
-.dog
-{
-	color: #0065FC;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50px;
-	height: 50px;
-	background-color: #DEEBFF ;
-	border-radius: 30px;
-}
-
-#fa_info
-{
-	display: flex;
-	justify-content: flex-start;
-	margin-top:53px ;
-}
-
-.info
-{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: -10px;
-	width: 25px;
-	height: 25px;
-	margin-right: 12px;	
-	border: solid #DEEBFF;
-	border-radius: 30px;
-	color: blue;
-}
 
 section
 {
@@ -340,6 +337,7 @@ section
 	
 }
 
+/* Bloc hebergement de Marseille */
 #marseille
 {
 	width: 880px;
@@ -354,14 +352,16 @@ section
 
 h4
 {
-	size: 18px;
+	font-size: 18px;
 	font-weight: bold;
 	margin-top: 46px;
 	margin-left: 42px;
-	font-family: 'Raleway'Times New, Roman, serif;
+	font-family: 'Raleway'Times New, Roman;
 	text-align: justify;
 }
 
+
+/* Bloc haut de l'hébergement */
 #bloca_top
 {
 	display: flex;
@@ -371,6 +371,8 @@ h4
 	
 }
 
+
+/* Bloc Auberges de la Cannerbière */
 #cannebiere_bloc
 {
 	display: flex;
@@ -439,6 +441,7 @@ h6
 }
 
 
+/* Bloc hôtel du port */
 #hport_bloc
 {
 	display: flex;
@@ -500,7 +503,8 @@ h6
 }
 
 
-#mouettes_bloc
+/* Bloc hôtel Mouettes */
+#mouettes_bloc 
 {
 	display: flex;
 	flex-direction: column;
@@ -512,9 +516,6 @@ h6
 	background-color: white;
 	border-radius: 30px;
 	margin-top: 25px ;
-
-	
-
 }
 
 #photo_mouettes
@@ -525,9 +526,7 @@ h6
 	border-radius: 10px 10px 0px 0px; 
 	margin-top: 5px;
 	margin-left: 5px;
-	margin-right: 5px;
-	
-	
+	margin-right: 5px;	
 }
 
 h5
@@ -538,8 +537,6 @@ h5
 	font-weight: bold;
 	margin-top: 15px;
 	margin-left: 18px;
-	
-
 }
 
 h6
@@ -579,6 +576,8 @@ h6
 	
 }
 
+
+/* Bloc hôtel de la mer */
 #mer_bloc
 {
 	display: flex;
@@ -603,8 +602,6 @@ h6
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	
-	
 }
 
 h5
@@ -615,8 +612,6 @@ h5
 	font-weight: bold;
 	margin-top: 15px;
 	margin-left: 18px;
-	
-
 }
 
 h6
@@ -647,6 +642,8 @@ h6
 	color: #F2F2F2; 
 }
 
+
+/* Bloc auberge le panier */
 #panier_bloc
 {
 	display: flex;
@@ -728,9 +725,6 @@ h6
 	background-color: white;
 	border-radius: 30px;
 	margin-top: 25px ;
-
-	
-
 }
 
 #photo_amina
@@ -741,9 +735,7 @@ h6
 	border-radius: 10px 10px 0px 0px; 
 	margin-top: 5px;
 	margin-left: 5px;
-	margin-right: 5px;
-	
-	
+	margin-right: 5px;	
 }
 
 h5
@@ -754,8 +746,6 @@ h5
 	font-weight: bold;
 	margin-top: 15px;
 	margin-left: 18px;
-	
-
 }
 
 h6
@@ -777,6 +767,8 @@ h6
 	height: 13px;
 }
 
+
+/* Bloc haut les plus populaires */
 #populaire
 {
 	position: relative;
@@ -806,16 +798,6 @@ h6
 }
 
 /* Bloc hôtel le soleil */
-#text_soleil
-{
-display: f;
-flex-direction: row-reverse;
-align-items: flex-start;
-align-self: start;
-text-align:start;
-text-align:left;
-
-}
 
 #soleil_bloc
 {
@@ -888,16 +870,6 @@ text-align:left;
 } 
 
 /* Bloc Au coeur de l'eau chambre d'hôtes */
-#text_au_coeur
-{
-display: flex;
-flex-direction: row-reverse;
-align-items: flex-start;
-align-self: start;
-text-align:start;
-text-align:left;
-
-}
 
 #au_coeur_bloc
 {
@@ -976,13 +948,7 @@ text-align:left;
 /* Bloc hôtel tout bleu et blanc */
 #text_bleu
 {
-display: f;
-flex-direction: row-reverse;
-align-items: flex-start;
-align-self: start;
-text-align:start;
-text-align:left;
-
+	display: inline-block
 }
 
 #bleu_bloc
@@ -1067,3 +1033,4 @@ text-align:left;
 	margin-left: 45px;
 	margin-bottom: 50px;
 }
+
