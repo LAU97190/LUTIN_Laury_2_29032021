@@ -54,7 +54,6 @@ table {
 	height: 1884px;
 	margin-left: 55px;
 	margin-right: 55px;
-	font-family: 'Raleway'Times New, Roman;
 }
 
 @font-face
@@ -62,14 +61,16 @@ table {
   src: url('Raleway/Raleway-VariableFont_wght.ttf') format('truetype');    
 }
 
-
+body 
+{
+	font-family: 'Raleway'Times New, Roman;
+}
 /* Bloc hearder */
 header
 {
 	border: solid white;
 	width: 1440px;
 	height: 426px ;
-	font-family: 'Raleway'Times New, Roman;
 }
 
 .logo_reservia
@@ -131,12 +132,10 @@ h1
 {
 	margin-top: 53px;
 	margin-bottom: 15px;
-	font-family: 'Raleway'Times New, Roman;
 	font-size: 18px;
 	font-weight: bold;
 	text-align: justify;
-	
-}
+	}
 
 p
 {
@@ -169,7 +168,7 @@ p
 	border-radius: 10px 0px 0px 10px;
 }
 
-em
+#search_text
 {
 	display: flex;
 	justify-content: center;
@@ -193,35 +192,6 @@ em
 	font-weight: bold;
 	font-size: 13px;
 }
-
-/* pour déplacer le cercle + fontawsome */
-.fa-stack
-{
-margin-top: 6px;
-margin-right: 6px;
-color: #0065FC;
-
- 
-}
-
-.fa-circle /* pour déplacer le cercle */
-{
-   font-size: 50px;
-    color:#F2F2F2;
-	margin-top: 1px;
-   margin-left: -1px;
-
-}
-
-/* pour déplacer le fontawsome */
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog 
-{
-    font-size: 20px;
-    margin-left: 12px;
-    margin-top: 7px;
-    background-color:#DEEBFF ;
-}
-
 #fontawesome
 {
 	display: flex;
@@ -231,99 +201,141 @@ color: #0065FC;
 	margin-bottom: 45px;
 }
 
-#fa_bloc
-{
-	display: inline-block;
-	margin-top: -30px;
-    border: solid #F2F2F2;
-	width: 194px;
-	height: 47px;
-	border-radius: 30px;
-	margin-right: 25px;
-	margin-left: 35px;
-}
 
-#bloc_familial
-{
-	display: inline-block;
-	margin-top: -30px;
-    border: solid #F2F2F2;
-	width: 151px;
-	height: 47px;
-	border-radius: 30px;
-	margin-right: 25px;
-	margin-left: 35px;
-}
 
-#bloc_romantique
-{
-	display: inline-block;
-	margin-top: -30px;
-    border: solid #F2F2F2;
-	width: 182px;
-	height: 47px;
-	border-radius: 30px;
-	margin-right: 25px;
-	margin-left: 35px;
-}
-
-#bloc_annimaux
-{
-	display: inline-block;
-	margin-top: -30px;
-    border: solid #F2F2F2;
-	width: 240px;
-	height: 47px;
-	border-radius: 30px;
-	margin-right: 25px;
-	margin-left: 35px;
-}
-.name 
+#name /* texte des icones */
 {   
 position: absolute;
 margin-top: 15px;
 margin-left: 18px;	
 font-size: 15px;
-font-family: 'Raleway'Times New, Roman;
 }
 
-
-
-
-/* pour déplacer le cercle + fontawsome */
-.fa-stackinfo
+/* position du le cercle + icone */
+.fa-stack
 {
 margin-top: 6px;
 margin-right: 6px;
-color: #0065FC;
+color: #F2F2F2;
+ 
+}
+
+.icone /*position des de l'icône dand le bloc*/
+{
+margin-top: 6px;
+margin-right: 6px;
 
 }
 
-.fa-stack-2x /* pour déplacer le cercle */
+.filtre/* le cercle */
 {
-   	font-size: 50px;
-	color:#F2F2F2;
-	margin-top: -3px;
+   	position: absolute;
+	left: -5px;
+	top: -7px;   
+	font-size: 50px;
+	margin-left: 5px;
+	background-color: #F2F2F2;
+	border-radius: 30px;
+}
+
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog /* icône */
+{
+    font-size: 20px;
+    margin-left: 5px;
+     color: #0065FC;
+}
+
+#icone1_bloc /* dimension + couleur du bloc économique */
+{
+	display: inline-block;
+	margin-top: -30px;
+   	width: 194px;
+	height: 47px;
+	border-radius: 30px;
+	margin-right: 25px;
+	margin-left: 35px;
+		border-top:solid #F2F2F2;
+	border-bottom:solid  #F2F2F2;
+	border-right: solid #F2F2F2;
+}
+
+#icone2_bloc /* dimention du bloc familiale */
+{
+	display: inline-block;
+	margin-top: -30px;
+	width: 151px;
+	height: 47px;
+	border-radius: 30px;
+	margin-right: 25px;
+	margin-left: 35px;
+		border-top:solid #F2F2F2;
+	border-bottom:solid  #F2F2F2;
+	border-right: solid #F2F2F2;
+		
+}
+
+#icone3_bloc/* dimention du bloc romantique */
+{
+	display: inline-block;
+	margin-top: -30px;
+	width: 182px;
+	height: 47px;
+	border-radius: 30px;
+	margin-right: 25px;
+	margin-left: 35px;
+	border-top:solid #F2F2F2;
+	border-bottom:solid  #F2F2F2;
+	border-right: solid #F2F2F2;
 	
 }
 
-/* pour déplacer le fontawsome */
-.fa-info 
+#icone4_bloc/* dimention du bloc annimaux*/
 {
-    position: absolute;
-	font-size: 20px;
-    margin-left: 10px;
-    margin-top: 6px;
-	padding-left: 8px;
-    background-color:#DEEBFF ;
+	display: inline-block;
+	margin-top: -30px;
+	width: 240px;
+	height: 47px;
+	border-radius: 30px;
+	margin-right: 25px;
+	margin-left: 35px;
+	border-top:solid #F2F2F2;
+	border-bottom:solid  #F2F2F2;
+	border-right: solid #F2F2F2;
+	
 }
 
-.infoname
+
+
+
+
+.icone_info /*position des de l'icône dand le bloc*/
+{
+margin-top: 6px;
+margin-right: 6px;
+
+}
+
+.cercleinfo/* le cercle */
+{
+   	position: absolute;
+	font-size: 22px;	
+	border-radius: 30px;
+}
+
+
+.fa-info /* icône info */
+{
+    position: absolute;    
+ 	margin-left: 8.5px;
+	margin-top: 4px;
+	color: #0065FC;
+}
+
+#name_info
 {   
-position: absolute;
-margin-left: 13px;	
-font-size: 15px;
-font-family: 'Raleway'Times New, Roman;
+margin-left: -5px;
+
 }
 
 
@@ -350,13 +362,12 @@ section
 	
 }
 
-h4
+h2
 {
 	font-size: 18px;
 	font-weight: bold;
 	margin-top: 46px;
 	margin-left: 42px;
-	font-family: 'Raleway'Times New, Roman;
 	text-align: justify;
 }
 
