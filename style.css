@@ -73,7 +73,7 @@ header
 	height: 426px ;
 }
 
-.logo_reservia
+.logo_reservia /* logo */
 {
 	float: left;
 	width: 95px;
@@ -82,50 +82,51 @@ header
 
 }
 
-nav
+nav /* bloc de navigation */
 {
-	display: flex;
-	justify-content: flex-end;
+	display: inline-block;
 	margin-top: 61px;
-	
+	margin-left: 830px;
 }
 
-ul
+ul /*bloc des puces */
 {
-	display: flex;
+	display: inline-block;
 	justify-content: space-around;
 	margin-right: 24px;
-	
 }
 
-li
+a /* ancre */
 {
 	margin-right: 69px;
-	color: #0065FC;
-	
-}
-
-a
-{
-	text-decoration: none;	
-}
-
-li:hover
-{
-	text-decoration: none;
-	color:green;
-	border-top: 2px solid black;
-	
-}
-
-nav a:hover 
-{
-	border-top: 2px solid black;
-}
-
-ul:visited
-{
 	color: black;
+	text-decoration: none;
+}
+
+#nav_text /* texte de navigation */
+{
+	color: #0065FC;
+	font-weight: bold;
+}
+
+li:hover /* survol puce*/
+{
+	text-decoration: #0065FC;
+	color:#0065FC;
+	border-top: 2px solid #0065FC;;
+	padding-top: 55px;
+	
+}
+
+nav a:hover /*survol bordure top ancre */
+{
+	border-top: 2px solid #0065FC;
+	padding-top: 55px;
+}
+
+a:hover,a:visited /* survol et viste ancre */ 
+{
+	color:#0065FC;
 }
 
 h1
@@ -144,7 +145,7 @@ p
 
 
 
-#barre
+#barre /* Bloc rechercher */
 {
 	display: flex;
 	justify-content:flex-start;
@@ -168,7 +169,7 @@ p
 	border-radius: 10px 0px 0px 10px;
 }
 
-#search_text
+#search_text /* texte rechercher */
 {
 	display: flex;
 	justify-content: center;
@@ -180,19 +181,17 @@ p
 	color:white
 }
 
-.search
-{
-	border-color: #F2F2F2;
-}
 
-#filtre
+
+#filtre_text /* bloc texte filtre */
 {
 	display: inline-block;
 	margin-top: 50px;	
 	font-weight: bold;
 	font-size: 13px;
 }
-#fontawesome
+
+#filtre_bloc /* bloc filtre */
 {
 	display: flex;
 	width: 934px;
@@ -269,7 +268,7 @@ margin-right: 6px;
 	border-radius: 30px;
 	margin-right: 25px;
 	margin-left: 35px;
-		border-top:solid #F2F2F2;
+	border-top:solid #F2F2F2;
 	border-bottom:solid  #F2F2F2;
 	border-right: solid #F2F2F2;
 		
@@ -305,9 +304,16 @@ margin-right: 6px;
 	
 }
 
+/*survol icone filtre*/
+.icone:hover,.fa-money-bill-wave:hover, .fa-money-bill-wave:hover, .fa-child:hover, .fa-heart:hover, .fa-dog:hover 
+{
+	color: green;
+}
 
-
-
+#name:hover /*survol texte icone filtre*/
+{
+	color:green;
+} 
 
 .icone_info /*position des de l'icône dand le bloc*/
 {
@@ -362,7 +368,7 @@ section
 	
 }
 
-h2
+h2 /* Texte de hebergement de Marseille */
 {
 	font-size: 18px;
 	font-weight: bold;
@@ -408,33 +414,34 @@ h2
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	
+	mar
 	
 }
 
 h5
 {
 	display: inline-block;
+	position:relative;
 	align-self: start;
 	font-size: 15px;
 	font-weight: bold;
-	margin-top: 15px;
+	top:-10px;
 	margin-left: 18px;
 }
 
 h6
 {
 	display: inline-block;
-	align-self: start;
+	position:relative;
 	font-size: 12px;
-	margin-top: 12px;
+	top: -12px;
 	margin-left: 18px;
 }
 
 #star_ca
 {
 	display: flex;
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;
@@ -481,31 +488,12 @@ h6
 	
 }
 
-h5
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 15px;
-	margin-left: 18px;
-	
 
-}
-
-h6
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 12px;
-	margin-top: 12px;
-	margin-left: 18px;
-}
 
 #star_3
 {
 	display: flex;
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;
@@ -550,19 +538,12 @@ h5
 	margin-left: 18px;
 }
 
-h6
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 12px;
-	margin-top: 12px;
-	margin-left: 18px;
-}
+
 
 #star
 {
 	display: flex;
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;
@@ -615,29 +596,11 @@ h6
 	margin-right: 5px;
 }
 
-h5
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 15px;
-	margin-left: 18px;
-}
-
-h6
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 12px;
-	margin-top: 12px;
-	margin-left: 18px;
-}
 
 #star_mer
 {
 	display: flex;
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;	
@@ -683,31 +646,11 @@ h6
 	
 }
 
-h5
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 15px;
-	margin-left: 18px;
-	
-
-}
-
-h6
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 12px;
-	margin-top: 12px;
-	margin-left: 18px;
-}
 
 #star_pa
 {
 	display: flex;
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;	
@@ -749,15 +692,6 @@ h6
 	margin-right: 5px;	
 }
 
-h5
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 15px;
-	margin-left: 18px;
-}
 
 h6
 {
@@ -772,7 +706,7 @@ h6
 {
 	display: flex;
 	justify-self: center;
-	margin-top: 5px;
+	margin-top: -5px;
 	color: #0065FC;
 	width: 68px;
 	height: 13px;
@@ -793,19 +727,19 @@ h6
 #chart
 {
 	float: right;
-	display: flex;
-	justify-content: flex-end;
-	align-self: flex-start;
+	display: inline-block;
+	margin-right: 40px;
+
 	margin-top: 46px;
-	margin-right: 45px;
+	
 }
 #blocb
 {
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: column;
-	margin-right: 40px;
-	margin-left: 40px;	
+	justify-content: center;
+
 }
 
 /* Bloc hôtel le soleil */
@@ -822,8 +756,7 @@ h6
 	background-color: white;
 	border-radius: 30px;
 	margin-top: 25px ;
-
-}
+	}
 
 #photo_soleil
 {
@@ -867,7 +800,7 @@ h6
 	width: 68px;
 	height: 13px;
 	margin-left: 155px;
-	margin-top: -55px;	
+	margin-top: -60px;	
 }
 
 .so1
@@ -941,7 +874,7 @@ h6
 	width: 68px;
 	height: 13px;
 	margin-left: 155px;
-	margin-top: -55px;	
+	margin-top: -60px;	
 }
 
 .coeur1
@@ -1021,7 +954,7 @@ h6
 	width: 68px;
 	height: 13px;
 	margin-left: 155px;
-	margin-top: -55px;	
+	margin-top: -60px;	
 }
 
 .bleu1
@@ -1041,7 +974,6 @@ h6
 
 #afficher
 {
-	margin-left: 45px;
-	margin-bottom: 50px;
+		margin-bottom: 50px;
 }
 
