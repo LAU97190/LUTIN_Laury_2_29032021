@@ -54,6 +54,7 @@ table {
 	height: 1884px;
 	margin-left: 55px;
 	margin-right: 55px;
+	
 }
 
 @font-face
@@ -254,7 +255,7 @@ margin-right: 6px;
 	border-radius: 30px;
 	margin-right: 25px;
 	margin-left: 35px;
-		border-top:solid #F2F2F2;
+	border-top:solid #F2F2F2;
 	border-bottom:solid  #F2F2F2;
 	border-right: solid #F2F2F2;
 }
@@ -348,7 +349,7 @@ margin-left: -5px;
 section
 {
 	display: flex;
-	border: solid gray;
+	
 	width: 1342px;
 	height: 1240px ;
 	font-family: 'Raleway'Times New, Roman, serif;
@@ -413,9 +414,7 @@ h2 /* Texte de hebergement de Marseille */
 	border-radius: 10px 10px 0px 0px; 
 	margin-top: 5px;
 	margin-left: 5px;
-	margin-right: 5px;
-	mar
-	
+	margin-right: 5px;	
 }
 
 h5
@@ -977,3 +976,183 @@ h6
 		margin-bottom: 50px;
 }
 
+#activites_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	width: 1342px;
+	height: 603px;
+	margin-left: 57px;
+	margin-top: -828px;
+	
+}
+
+/* Bloc Vieux Port */
+#vieux_port_bloc
+{
+
+	width: 304px;
+	height: 440px;
+	border-bottom:solid #F2F2F2;
+	border-left: solid #F2F2F2;
+	border-right: solid #F2F2F2;
+	border-radius: 30px;
+	margin-top: 30px;
+	
+}
+
+#photo_vieux_port
+{
+	width: 305px; ;
+	height: 388px;
+	border-radius: 25px 25px 0px 0px; 
+	left: 112px;	
+}
+
+h4
+{
+	margin-left: 20px;	
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 30px;
+	text-align: justify;
+	
+	
+}
+
+/* Bloc Fort de pomègues  */
+
+#pomegues_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+
+	width: 305px ;
+	height: 235px;
+	border-bottom:solid #F2F2F2;
+	border-left: solid #F2F2F2;
+	border-right: solid #F2F2F2;
+	border-radius: 30px;
+	margin-left: 345px;
+	margin-top: -440px;
+	}
+
+#photo_pomegues
+{
+	width: 305px ;
+	height: 180px;
+	border-radius: 25px 25px 0px 0px; 
+	left: 112px;	
+}
+
+
+/* Bloc Au coeur de l'eau chambre d'hôtes */
+
+#friou_bloc
+{
+	
+	width: 305px;
+	height: 165px;
+	border-bottom:solid #F2F2F2;
+	border-left: solid #F2F2F2;
+	border-right: solid #F2F2F2;
+	border-radius: 30px;
+	margin-left: 345px;
+	margin-top: 30px;
+}
+
+#photo_frioul
+{
+	width: 305px ;
+	height: 110px;
+	border-radius: 25px 25px 0px 0px; 
+	left: 112px;	
+	}
+
+/* Bloc parc National des Calanques */
+#calanque_bloc
+{
+
+	width: 305px;
+	height: 440px;
+	border-bottom:solid #F2F2F2;
+	border-left: solid #F2F2F2;
+	border-right: solid #F2F2F2;
+	border-radius: 30px;
+	margin-left: 690px;
+	margin-top: -440px;
+	
+}
+
+#photo_calanques/* Bloc photo parc National des Calanques */
+{
+	width: 305px; ;
+	height: 388px;
+	border-radius: 25px 25px 0px 0px; 
+	left: 112px;	
+}
+
+/* Bloc  Notre-Dame-de-la-Garde*/
+
+#garde_bloc
+{
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	width: 305px ;
+	height: 195px;
+	border-bottom:solid #F2F2F2;
+	border-left: solid #F2F2F2;
+	border-right: solid #F2F2F2;
+	border-radius: 30px;
+	margin-left: 1034px;
+	margin-top: -440px;
+	}
+
+#photo_garde
+{
+	width: 305px ;
+	height: 140px;
+	border-radius: 25px 25px 0px 0px; 
+	left: 112px;
+		
+}
+
+
+/* Bloc Au coeur de l'eau chambre d'hôtes */
+
+#longchamp_bloc
+{
+	
+	width: 305px;
+	height: 210px;
+	border-bottom:solid #F2F2F2;
+	border-left: solid #F2F2F2;
+	border-right: solid #F2F2F2;
+	border-radius: 30px;
+	margin-left: 1034px;
+	margin-top: 30px;
+}
+
+#photo_longchamp
+{
+	width: 305px ;
+	height: 150px;
+	border-radius: 25px 25px 0px 0px; 
+	left: 112px;	
+	}
+
+footer
+{
+	position: absolute;
+	top: 1573px;
+	width: 1346px;
+	height: 218px;
+	margin-top: 103px;
+	margin-left: -2px;
+	
+	background-color:#F2F2F2;
+}
