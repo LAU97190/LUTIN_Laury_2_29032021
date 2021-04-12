@@ -726,9 +726,7 @@ h6
 #chart
 {
 	float: right;
-	display: inline-block;
 	margin-right: 40px;
-
 	margin-top: 46px;
 	
 }
@@ -1149,10 +1147,57 @@ footer
 {
 	position: absolute;
 	top: 1573px;
-	width: 1346px;
+	width: 1440px;
 	height: 218px;
 	margin-top: 103px;
-	margin-left: -2px;
+	margin-left: -50px;
 	
 	background-color:#F2F2F2;
+}
+
+#bloc_propos, #bloc_nos_hébergements, #bloc_assistance
+{
+    display: inline-block;
+  vertical-align: top;
+	margin-top: 50px;
+	text-align: justify;
+
+	
+	}
+
+#titre_footer
+{
+	font-weight: bold;
+}	
+
+
+
+
+#bloc_propos
+{
+	margin-left: 50px;
+	margin-right: 377px;
+
+}
+
+#bloc_nos_hébergements
+{
+
+	margin-left: 50px;
+	margin-right: 294px;
+	
+}
+
+#bloc_assistance
+{
+    margin-left: 50px;
+
+}
+
+
+#name_propos, #name_noshergements, #name_assistance
+{
+	margin-top: 25px;
+	margin-bottom:20px;
+	font-size: 13px;
 }
