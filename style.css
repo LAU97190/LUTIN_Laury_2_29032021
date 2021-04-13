@@ -427,7 +427,13 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 5px;	
 }
 
-h3
+#h3_bloca:hover, #h3_blocb:hover
+{
+	color: green;
+}
+
+
+#h3_bloca, #h3_blocb
 {
 	display: inline-block;
 	position:relative;
@@ -437,6 +443,7 @@ h3
 	top:-10px;
 	margin-left: 18px;
 	color: black;
+	margin-top: 15px;
 }
 
 #text_prix
@@ -446,6 +453,17 @@ h3
 	font-size: 12px;
 	top: -12px;
 	margin-left: 18px;
+}
+
+#lien_afficher
+{
+	text-decoration: none;
+	color: black;
+}
+
+#lien_afficher:hover 
+{
+	color: green;
 }
 
 #star_ca
@@ -494,8 +512,6 @@ h3
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	
-	
 }
 
 
@@ -507,8 +523,7 @@ h3
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;
-	color: #0065FC;
-	
+	color: #0065FC;	
 }
 
 
@@ -538,15 +553,7 @@ h3
 	margin-right: 5px;	
 }
 
-h3
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 15px;
-	margin-left: 18px;
-}
+
 
 
 
@@ -743,6 +750,8 @@ h3
 	margin-top: 46px;
 	
 }
+
+
 #blocb
 {
 	display: flex;
@@ -997,6 +1006,10 @@ h3
 	margin-left: 57px;
 	margin-top: -828px;
 	
+}
+#lien_activites:hover
+{
+	color: green;
 }
 
 /* Bloc Vieux Port */
