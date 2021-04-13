@@ -1,4 +1,3 @@
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -97,14 +96,23 @@ ul /*bloc des puces */
 	margin-right: 24px;
 }
 
-a /* ancre */
+#lien
 {
-	margin-right: 69px;
+	align-self: start;
+
+}
+
+
+
+#ancre_text /* ancre */
+{
+	
+	margin-right: 70px;
 	color: black;
 	text-decoration: none;
 }
 
-#nav_text /* texte de navigation */
+#nav_text/* texte de navigation */
 {
 	color: #0065FC;
 	font-weight: bold;
@@ -119,16 +127,19 @@ li:hover /* survol puce*/
 	
 }
 
-nav a:hover /*survol bordure top ancre */
+
+nav #ancre_text:hover /*survol bordure top ancre */
 {
 	border-top: 2px solid #0065FC;
 	padding-top: 55px;
 }
 
-a:hover,a:visited /* survol et viste ancre */ 
+#ancre_text:hover,#ancre_text:visited #lien:hover /* survol et viste ancre */ 
 {
 	color:#0065FC;
 }
+
+
 
 h1
 {
@@ -139,7 +150,7 @@ h1
 	text-align: justify;
 	}
 
-p
+#p1
 {
 	font-size: small;
 }
@@ -349,7 +360,6 @@ margin-left: -5px;
 section
 {
 	display: flex;
-	
 	width: 1342px;
 	height: 1240px ;
 	font-family: 'Raleway'Times New, Roman, serif;
@@ -417,7 +427,7 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 5px;	
 }
 
-h5
+h3
 {
 	display: inline-block;
 	position:relative;
@@ -426,9 +436,10 @@ h5
 	font-weight: bold;
 	top:-10px;
 	margin-left: 18px;
+	color: black;
 }
 
-h6
+#text_prix
 {
 	display: inline-block;
 	position:relative;
@@ -527,7 +538,7 @@ h6
 	margin-right: 5px;	
 }
 
-h5
+h3
 {
 	display: inline-block;
 	align-self: start;
@@ -692,7 +703,7 @@ h5
 }
 
 
-h6
+#text_prix
 {
 	display: inline-block;
 	align-self: start;
@@ -726,7 +737,9 @@ h6
 #chart
 {
 	float: right;
+	display: inline-block;
 	margin-right: 40px;
+
 	margin-top: 46px;
 	
 }
@@ -766,7 +779,7 @@ h6
 	margin-right: 5px;	
 }
 
-#soleil_bloc h5
+#soleil_bloc h3
 {
 	display: inline-block;
 	align-self: start;
@@ -778,7 +791,7 @@ h6
 
 }
 
-#soleil_bloc h6
+#soleil_bloc #text_prix
 {
 	display: inline-block;
 	align-self: start;
@@ -840,7 +853,7 @@ h6
 	
 }
 
-#au_coeur_bloc h5
+#au_coeur_bloc h3
 {
 	display: inline-block;
 	align-self: start;
@@ -852,7 +865,7 @@ h6
 
 }
 
-#au_coeur_bloc h6
+#au_coeur_bloc #text_prix
 {
 	display: inline-block;
 	align-self: start;
@@ -920,7 +933,7 @@ h6
 	
 }
 
-#bleu_bloc h5
+#bleu_bloc h3
 {
 	display: inline-block;
 	align-self: start;
@@ -932,7 +945,7 @@ h6
 
 }
 
-#bleu_bloc h6
+#bleu_bloc #text_prix
 {
 	display: inline-block;
 	align-self: start;
@@ -1143,6 +1156,14 @@ h4
 	left: 112px;	
 	}
 
+#lien_activites
+{
+	color: black;
+	align-self: flex-start;
+	text-decoration: none;
+	
+}
+
 footer
 {
 	position: absolute;
@@ -1158,16 +1179,15 @@ footer
 #bloc_propos, #bloc_nos_hébergements, #bloc_assistance
 {
     display: inline-block;
-  vertical-align: top;
+  	vertical-align: top;
 	margin-top: 50px;
 	text-align: justify;
-
-	
-	}
+}
 
 #titre_footer
 {
 	font-weight: bold;
+	margin-left: -1px;
 }	
 
 
@@ -1177,6 +1197,7 @@ footer
 {
 	margin-left: 50px;
 	margin-right: 377px;
+	text-align: start;
 
 }
 
