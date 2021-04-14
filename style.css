@@ -104,7 +104,7 @@ li/*bloc des puces */
 
 
 
-#ancre_text /* ancre */
+#ancre1, #ancre2 /* ancre */
 {
 	
 	margin-right: 70px;
@@ -126,13 +126,13 @@ li:hover /* survol puce*/
 }
 
 
-nav #ancre_text:hover /*survol bordure top ancre */
+nav #ancre1:hover, #ancre2:hover /*survol bordure top ancre */
 {
 	border-top: 2px solid #0065FC;
 	padding-top: 55px;
 }
 
-#ancre_text:hover,#ancre_text:visited #lien:hover /* survol et viste ancre */ 
+##ancre1:hover, #ancre2:hover,#ancre1:visited, #ancre2:visited #lien:hover /* survol et viste ancre */ 
 {
 	color:#0065FC;
 }
