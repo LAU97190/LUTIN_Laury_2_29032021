@@ -96,7 +96,7 @@ ul /*bloc des puces */
 	margin-right: 24px;
 }
 
-#lien
+.lien
 {
 	align-self: start;
 
@@ -134,7 +134,7 @@ nav #ancre_text:hover /*survol bordure top ancre */
 	padding-top: 55px;
 }
 
-#ancre_text:hover,#ancre_text:visited #lien:hover /* survol et viste ancre */ 
+#ancre_text:hover,#ancre_text:visited .lien:hover /* survol et viste ancre */ 
 {
 	color:#0065FC;
 }
@@ -335,7 +335,7 @@ h2 /* Texte de hebergement de Marseille */
 
 
 /* Bloc Auberges de la Cannerbière */
-#cannebiere_bloc
+.hotel_bloc
 {
 	display: flex;
 	flex-direction: column;
@@ -350,7 +350,7 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 30px;
 }
 
-#photo_cannebiere
+.hotel_photo
 {
 	float: left;
 	width: 235px; ;
@@ -379,22 +379,15 @@ h3
 	color: black;
 }
 
-#text_prix
-{
-	display: inline-block;
-	position:relative;
-	font-size: 12px;
-	top: -12px;
-	margin-left: 18px;
-}
 
-#lien_afficher
+
+.lien_afficher
 {
 	text-decoration: none;
 	color: black;
 }
 
-#lien_afficher:hover 
+.lien_afficher:hover 
 {
 	color: green;
 }
@@ -475,16 +468,6 @@ h3
 	margin-top: 25px ;
 }
 
-#photo_mouettes
-{
-	float: left;
-	width: 235px; ;
-	height: 115px;
-	border-radius: 10px 10px 0px 0px; 
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;	
-}
 
 h3
 {
@@ -543,17 +526,6 @@ h3
 	margin-right: 30px;
 }
 
-#photo_mer
-{
-	float: left;
-	width: 235px; ;
-	height: 115px;
-	border-radius: 10px 10px 0px 0px; 
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
 
 #star_mer
 {
@@ -591,19 +563,6 @@ h3
 	margin-right: 30px;
 }
 
-#photo_panier
-{
-	float: left;
-	width: 235px; ;
-	height: 115px;
-	border-radius: 10px 10px 0px 0px; 
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	
-	
-}
-
 
 #star_pa
 {
@@ -639,21 +598,12 @@ h3
 	margin-top: 25px ;
 }
 
-#photo_amina
-{
-	float: left;
-	width: 235px; ;
-	height: 115px;
-	border-radius: 10px 10px 0px 0px; 
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;	
-}
 
-
-#text_prix
+.text_prix
 {
 	display: inline-block;
+	position:relative;
+	top: -12px;
 	align-self: start;
 	font-size: 12px;
 	margin-top: 12px;
@@ -742,7 +692,7 @@ h3
 
 }
 
-#soleil_bloc #text_prix
+#soleil_bloc .text_prix
 {
 	display: inline-block;
 	align-self: start;
@@ -816,7 +766,7 @@ h3
 
 }
 
-#au_coeur_bloc #text_prix
+#au_coeur_bloc .text_prix
 {
 	display: inline-block;
 	align-self: start;
@@ -896,7 +846,7 @@ h3
 
 }
 
-#bleu_bloc #text_prix
+#bleu_bloc .text_prix
 {
 	display: inline-block;
 	align-self: start;
@@ -928,7 +878,7 @@ h3
 	color: #F2F2F2;
 } 
 
-#prix
+.prix
 {
 	font-weight: bolder;
 }
