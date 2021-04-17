@@ -89,7 +89,7 @@ nav /* bloc de navigation */
 	margin-left: 830px;
 }
 
-li/*bloc des puces */
+ul /*bloc des puces */
 {
 	display: inline-block;
 	justify-content: space-around;
@@ -104,7 +104,7 @@ li/*bloc des puces */
 
 
 
-#ancre1, #ancre2 /* ancre */
+#ancre_text /* ancre */
 {
 	
 	margin-right: 70px;
@@ -122,17 +122,19 @@ li:hover /* survol puce*/
 {
 	text-decoration: #0065FC;
 	color:#0065FC;
-		
+	border-top: 2px solid #0065FC;;
+	padding-top: 55px;
+	
 }
 
 
-nav #ancre1:hover, #ancre2:hover /*survol bordure top ancre */
+nav #ancre_text:hover /*survol bordure top ancre */
 {
 	border-top: 2px solid #0065FC;
 	padding-top: 55px;
 }
 
-##ancre1:hover, #ancre2:hover,#ancre1:visited, #ancre2:visited #lien:hover /* survol et viste ancre */ 
+#ancre_text:hover,#ancre_text:visited #lien:hover /* survol et viste ancre */ 
 {
 	color:#0065FC;
 }
@@ -193,10 +195,11 @@ h1
 
 
 
-#filtre_text /* bloc texte filtre */
+.filtre_text /* bloc texte filtre */
 {
 	display: inline-block;
 	margin-top: 50px;	
+	margin-right: 35px;
 	font-weight: bold;
 	font-size: 13px;
 }
@@ -212,148 +215,81 @@ h1
 
 
 
-#name /* texte des icones */
-{   
-position: absolute;
-margin-top: 15px;
-margin-left: 18px;	
+.filtres
+{
+margin-left: -2px;
+margin-right: 25px;
+margin-bottom: 50px;
+}
+
+.filtre
+{
+display: inline-block;
+border: #F2F2F2 solid;
+border-radius: 40px;
+font-weight: bold;
+margin-right: 25px;
+}
+
+.icone
+{
+
+vertical-align: middle;
+margin-left: -8px;
+margin-top: -2px;
+margin-bottom: -2px;
+
+
+}
+
+.backcolor
+{
+color: #DEEBFF ;
+}
+
+.colorfiltres
+{
+color: #0065FC ;
 font-size: 15px;
 }
 
-/* position du le cercle + icone */
-.fa-stack
+.iconename
 {
-margin-top: 6px;
-margin-right: 6px;
-color: #F2F2F2;
- 
-}
-
-.icone /*position des de l'icône dand le bloc*/
-{
-margin-top: 6px;
-margin-right: 6px;
-
-}
-
-.filtre/* le cercle */
-{
-   	position: absolute;
-	left: -5px;
-	top: -7px;   
-	font-size: 50px;
-	margin-left: 5px;
-	background-color: #F2F2F2;
-	border-radius: 30px;
-}
-
-
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog /* icône */
-{
-    font-size: 20px;
-    margin-left: 5px;
-     color: #0065FC;
-}
-
-#icone1_bloc /* dimension + couleur du bloc économique */
-{
-	display: inline-block;
-	margin-top: -30px;
-   	width: 194px;
-	height: 47px;
-	border-radius: 30px;
+	vertical-align: middle;
 	margin-right: 25px;
-	margin-left: 35px;
-	border-top:solid #F2F2F2;
-	border-bottom:solid  #F2F2F2;
-	border-right: solid #F2F2F2;
-}
-
-#icone2_bloc /* dimention du bloc familiale */
-{
-	display: inline-block;
-	margin-top: -30px;
-	width: 151px;
-	height: 47px;
-	border-radius: 30px;
-	margin-right: 25px;
-	margin-left: 35px;
-	border-top:solid #F2F2F2;
-	border-bottom:solid  #F2F2F2;
-	border-right: solid #F2F2F2;
-		
-}
-
-#icone3_bloc/* dimention du bloc romantique */
-{
-	display: inline-block;
-	margin-top: -30px;
-	width: 182px;
-	height: 47px;
-	border-radius: 30px;
-	margin-right: 25px;
-	margin-left: 35px;
-	border-top:solid #F2F2F2;
-	border-bottom:solid  #F2F2F2;
-	border-right: solid #F2F2F2;
 	
 }
 
-#icone4_bloc/* dimention du bloc annimaux*/
+
+
+.icone_info/* Bloc info */
 {
-	display: inline-block;
-	margin-top: -30px;
-	width: 240px;
-	height: 47px;
-	border-radius: 30px;
+margin-left: -10px;
+margin-right: 25px;
+}
+
+.cercleinfo
+{
+color: #F2F2F2 ;
+}
+
+.colorfiltres2
+{
+color: #0065FC ;
+font-size: 10px;
+}
+
+.text_info
+{
+	font-size: 15px;
 	margin-right: 25px;
-	margin-left: 35px;
-	border-top:solid #F2F2F2;
-	border-bottom:solid  #F2F2F2;
-	border-right: solid #F2F2F2;
 	
 }
 
-/*survol icone filtre*/
-.icone:hover,.fa-money-bill-wave:hover, .fa-money-bill-wave:hover, .fa-child:hover, .fa-heart:hover, .fa-dog:hover 
+.filtre:hover,.colorfiltres:hover,.colorfiltres2:hover
 {
-	color: green;
+	color: green
 }
-
-#name:hover /*survol texte icone filtre*/
-{
-	color:green;
-} 
-
-.icone_info /*position des de l'icône dand le bloc*/
-{
-margin-top: 6px;
-margin-right: 6px;
-
-}
-
-.cercleinfo/* le cercle */
-{
-   	position: absolute;
-	font-size: 22px;	
-	border-radius: 30px;
-}
-
-
-.fa-info /* icône info */
-{
-    position: absolute;    
- 	margin-left: 8.5px;
-	margin-top: 4px;
-	color: #0065FC;
-}
-
-#name_info
-{   
-margin-left: -5px;
-
-}
-
 
 section
 {
@@ -425,13 +361,13 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 5px;	
 }
 
-#h3_bloca:hover, #h3_blocb:hover
+h3:hover
 {
 	color: green;
 }
 
 
-#h3_bloca, #h3_blocb
+h3
 {
 	display: inline-block;
 	position:relative;
@@ -441,7 +377,6 @@ h2 /* Texte de hebergement de Marseille */
 	top:-10px;
 	margin-left: 18px;
 	color: black;
-	margin-top: 15px;
 }
 
 #text_prix
@@ -551,7 +486,15 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 5px;	
 }
 
-
+h3
+{
+	display: inline-block;
+	align-self: start;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: 18px;
+}
 
 
 
@@ -742,7 +685,8 @@ h2 /* Texte de hebergement de Marseille */
 #chart
 {
 	float: right;
-	display: inline-block;
+	
+	
 	margin-right: 40px;
 
 	margin-top: 46px;
