@@ -355,7 +355,7 @@ h2 /* Texte de hebergement de Marseille */
 	float: left;
 	width: 235px; ;
 	height: 115px;
-	border-radius: 10px 10px 0px 0px; 
+	border-radius: 20px 20px 0px 0px; 
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;	
@@ -758,47 +758,23 @@ footer
 	background-color:#F2F2F2;
 }
 
-#bloc_propos, #bloc_nos_hébergements, #bloc_assistance
+.bloc_footer
 {
     display: inline-block;
   	vertical-align: top;
 	margin-top: 50px;
 	text-align: justify;
+	margin-left: 57px;
+	margin-right: 230px;
 }
 
-#titre_footer
+h3-footer
 {
 	font-weight: bold;
 	margin-left: -1px;
 }	
 
-
-
-
-#bloc_propos
-{
-	margin-left: 50px;
-	margin-right: 377px;
-	text-align: start;
-
-}
-
-#bloc_nos_hébergements
-{
-
-	margin-left: 50px;
-	margin-right: 294px;
-	
-}
-
-#bloc_assistance
-{
-    margin-left: 50px;
-
-}
-
-
-#name_propos, #name_noshergements, #name_assistance
+.text_footer
 {
 	margin-top: 25px;
 	margin-bottom:20px;
