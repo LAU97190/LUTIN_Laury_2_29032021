@@ -89,11 +89,11 @@ nav /* bloc de navigation */
 	margin-left: 830px;
 }
 
-ul /*bloc des puces */
+li /*bloc des puces */
 {
 	display: inline-block;
 	justify-content: space-around;
-	margin-right: 24px;
+	margin-right: 70px;
 }
 
 .lien
@@ -104,15 +104,15 @@ ul /*bloc des puces */
 
 
 
-#ancre_text /* ancre */
+.ancre_text /* ancre */
 {
 	
-	margin-right: 70px;
+	margin-right: 77px;
 	color: black;
 	text-decoration: none;
 }
 
-#nav_text/* texte de navigation */
+.nav_text/* texte de navigation */
 {
 	color: #0065FC;
 	font-weight: bold;
@@ -367,7 +367,7 @@ h3:hover
 }
 
 
-h3
+ h3
 {
 	display: inline-block;
 	position:relative;
@@ -377,6 +377,8 @@ h3
 	top:-10px;
 	margin-left: 18px;
 	color: black;
+	margin-top: 15px;
+	margin-left: 18px;
 }
 
 
@@ -392,110 +394,22 @@ h3
 	color: green;
 }
 
-#star_ca
+.star_hebergement
 {
 	display: flex;
-	margin-top: -5px;
+	
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;
 }
 
-.ca1
+.fa-sm, .ca1,.mer1, .pa1/* étoile des */
 {
 	color: #0065FC;
 	
 } 
 
-.ca2
-{
-	color: #F2F2F2; 
-}
-
-
-/* Bloc hôtel du port */
-#hport_bloc
-{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-end;
-	align-items: flex-end;
-	width: 245px ;
-	height: 200px;
-	border:solid white;
-	background-color: white;
-	border-radius: 30px;
-	margin-top: 25px ;
-	margin-right: 30px;
-}
-
-#photo_hport
-{
-	float: left;
-	width: 235px; ;
-	height: 115px;
-	border-radius: 10px 10px 0px 0px; 
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
-
-
-#star_3
-{
-	display: flex;
-	margin-top: -5px;
-	margin-right: 160px;
-	width: 68px;
-	height: 13px;
-	color: #0065FC;	
-}
-
-
-/* Bloc hôtel Mouettes */
-#mouettes_bloc 
-{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-end;
-	align-items: flex-end;
-	width: 245px ;
-	height: 200px;
-	border:solid white;
-	background-color: white;
-	border-radius: 30px;
-	margin-top: 25px ;
-}
-
-
-h3
-{
-	display: inline-block;
-	align-self: start;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: 15px;
-	margin-left: 18px;
-}
-
-
-
-#star
-{
-	display: flex;
-	margin-top: -5px;
-	margin-right: 160px;
-	width: 68px;
-	height: 13px;
-}
-
-.mou1
-{
-	color: #0065FC;
-} 
-
-.mou2
+.ca2,.mer2,.pa2
 {
 	color: #F2F2F2; 
 }
@@ -508,96 +422,6 @@ h3
 	margin-left: 40px;
 	
 }
-
-
-/* Bloc hôtel de la mer */
-#mer_bloc
-{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-end;
-	align-items: flex-end;
-	width: 245px ;
-	height: 200px;
-	border:solid white;
-	background-color: white;
-	border-radius: 30px;
-	margin-top: 25px ;
-	margin-right: 30px;
-}
-
-
-#star_mer
-{
-	display: flex;
-	margin-top: -5px;
-	margin-right: 160px;
-	width: 68px;
-	height: 13px;	
-}
-
-.mer1
-{
-	color: #0065FC;
-} 
-
-.mer2
-{
-	color: #F2F2F2; 
-}
-
-
-/* Bloc auberge le panier */
-#panier_bloc
-{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-end;
-	align-items: flex-end;
-	width: 245px ;
-	height: 200px;
-	border:solid white;
-	background-color: white;
-	border-radius: 30px;
-	margin-top: 25px ;
-	margin-right: 30px;
-}
-
-
-#star_pa
-{
-	display: flex;
-	margin-top: -5px;
-	margin-right: 160px;
-	width: 68px;
-	height: 13px;	
-}
-
-.pa1
-{
-	color: #0065FC;
-} 
-
-.pa2
-{
-	color: #F2F2F2; 
-}
-
-
-#amina_bloc
-{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-end;
-	align-items: flex-end;
-	width: 245px ;
-	height: 200px;
-	border:solid white;
-	background-color: white;
-	border-radius: 30px;
-	margin-top: 25px ;
-}
-
 
 .text_prix
 {
