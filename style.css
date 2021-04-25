@@ -75,7 +75,6 @@ header
 
 .logo_reservia /* logo */
 {
-	float: left;
 	width: 95px;
 	height: 29px;
 	margin-top: 53px;
@@ -131,12 +130,13 @@ li:hover /* survol puce*/
 nav #ancre_text:hover /*survol bordure top ancre */
 {
 	border-top: 2px solid #0065FC;
-	padding-top: 55px;
+
 }
 
 #ancre_text:hover,#ancre_text:visited .lien:hover /* survol et viste ancre */ 
 {
 	color:#0065FC;
+	
 }
 
 
@@ -297,7 +297,7 @@ section
 	width: 1342px;
 	height: 1240px ;
 	font-family: 'Raleway'Times New, Roman, serif;
-	
+	margin-top: -75px;
 }
 
 /* Bloc hebergement de Marseille */
@@ -361,13 +361,13 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 5px;	
 }
 
-h3:hover
+h3_mars:hover
 {
 	color: green;
 }
 
 
- h3
+h3_mars
 {
 	display: inline-block;
 	position:relative;
@@ -477,9 +477,9 @@ h3:hover
 
 }
 
-/* Bloc hôtel le soleil */
+/* Bloc les plus populaires*/
 
-#soleil_bloc
+.pop_bloc
 {
 	display: flex;
 	flex-direction: column;
@@ -493,33 +493,31 @@ h3:hover
 	margin-top: 25px ;
 	}
 
-#photo_soleil
+.photo_pop
 {
 	float: left;
 	width: 128px; ;
 	height: 135px;
-	border-radius: 10px 0px 0px 10px; 
+	border-radius: 20px 0px 0px 20px; 
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;	
 }
 
-#soleil_bloc h3
+h3-pop
 {
 	display: inline-block;
-	align-self: start;
+	color: black;
 	vertical-align: text-top;
 	font-size: 15px;
 	font-weight: bold;
-	margin-top: -116px;
-	margin-left: 155px;
-
+	margin-top: -30px;
 }
 
-#soleil_bloc .text_prix
+.text_pop
 {
 	display: inline-block;
-	align-self: start;
+	align-self: middle;
 	vertical-align: top;
 	font-size: 12px;
 	margin-top: -95px;
@@ -527,177 +525,32 @@ h3:hover
 	margin-bottom: 35px;
 }
 
-#star_so
+h3-pop:hover
+{
+	color:green;
+}
+
+.pop_prix
+{
+	margin-left: 1px;
+}
+
+.star_pop
 {
 	display: flex;
 	justify-self: flex-end;
 	align-self: flex-start;
 	width: 68px;
 	height: 13px;
-	margin-left: 155px;
-	margin-top: -60px;	
-}
+	margin-left:155px;
+	}
 
-.so1
+.so1, .coeur1, .bleu1
 {
 	color: #0065FC;
 } 
 
-.so2
-{
-	color: #F2F2F2;
-} 
-
-/* Bloc Au coeur de l'eau chambre d'hôtes */
-
-#au_coeur_bloc
-{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-start;
-	align-items: flex-start;
-	width: 345px ;
-	height: 145px;
-	border:solid white;
-	background-color: white;
-	border-radius: 30px;
-	margin-top: 25px ;
-
-}
-
-#photo_au_coeur
-{
-	float: left;
-	width: 128px; ;
-	height: 135px;
-	border-radius: 10px 0px 0px 10px; 
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	
-	
-}
-
-#au_coeur_bloc h3
-{
-	display: inline-block;
-	align-self: start;
-	vertical-align: text-top;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: -116px;
-	margin-left: 155px;
-
-}
-
-#au_coeur_bloc .text_prix
-{
-	display: inline-block;
-	align-self: start;
-	vertical-align: top;
-	font-size: 12px;
-	margin-top: -95px;
-	margin-left: 155px;
-	margin-bottom: 35px;
-}
-
-#star_coeur
-{
-	display: flex;
-	justify-self: flex-end;
-	align-self: flex-start;
-	width: 68px;
-	height: 13px;
-	margin-left: 155px;
-	margin-top: -60px;	
-}
-
-.coeur1
-{
-	color: #0065FC;
-} 
-
-.coeur2
-{
-	color: #F2F2F2;
-} 
-
-
-
-/* Bloc hôtel tout bleu et blanc */
-#text_bleu
-{
-	display: inline-block
-}
-
-#bleu_bloc
-{
-	display: flex;
-	flex-direction: column;
-	align-content: flex-start;
-	align-items: flex-start;
-	width: 345px ;
-	height: 145px;
-	border:solid white;
-	background-color: white;
-	border-radius: 30px;
-	margin-top: 25px ;
-
-}
-
-#photo_bleu
-{
-	float: left;
-	width: 128px; ;
-	height: 135px;
-	border-radius: 10px 0px 0px 10px; 
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	
-	
-}
-
-#bleu_bloc h3
-{
-	display: inline-block;
-	align-self: start;
-	vertical-align: text-top;
-	font-size: 15px;
-	font-weight: bold;
-	margin-top: -116px;
-	margin-left: 155px;
-
-}
-
-#bleu_bloc .text_prix
-{
-	display: inline-block;
-	align-self: start;
-	vertical-align: top;
-	font-size: 12px;
-	margin-top: -95px;
-	margin-left: 155px;
-	
-}
-
-#star_bleu
-{
-	display: flex;
-	justify-self: flex-end;
-	align-self: flex-start;
-	width: 68px;
-	height: 13px;
-	margin-left: 155px;
-	margin-top: -60px;	
-}
-
-.bleu1
-{
-	color: #0065FC;
-} 
-
-.bleu2
+.so2, .coeur2, .bleu2
 {
 	color: #F2F2F2;
 } 
@@ -720,7 +573,7 @@ h3:hover
 	width: 1342px;
 	height: 603px;
 	margin-left: 57px;
-	margin-top: -828px;
+	margin-top: -800px;
 	
 }
 #lien_activites:hover
