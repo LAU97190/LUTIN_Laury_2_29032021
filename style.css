@@ -75,6 +75,7 @@ header
 
 .logo_reservia /* logo */
 {
+	float: left;
 	width: 95px;
 	height: 29px;
 	margin-top: 53px;
@@ -84,8 +85,8 @@ header
 nav /* bloc de navigation */
 {
 	display: inline-block;
-	margin-top: 61px;
 	margin-left: 830px;
+	
 }
 
 li /*bloc des puces */
@@ -93,6 +94,7 @@ li /*bloc des puces */
 	display: inline-block;
 	justify-content: space-around;
 	margin-right: 70px;
+	padding-top: 55px;
 }
 
 .lien
@@ -106,7 +108,7 @@ li /*bloc des puces */
 .ancre_text /* ancre */
 {
 	
-	margin-right: 77px;
+	
 	color: black;
 	text-decoration: none;
 }
@@ -115,25 +117,27 @@ li /*bloc des puces */
 {
 	color: #0065FC;
 	font-weight: bold;
+	margin-right: 77px;
+	text-decoration: none;
+	
 }
 
 li:hover /* survol puce*/
 {
 	text-decoration: #0065FC;
 	color:#0065FC;
-	border-top: 2px solid #0065FC;;
-	padding-top: 55px;
+	border-top: 2px solid #0065FC;
 	
 }
 
 
-nav #ancre_text:hover /*survol bordure top ancre */
+nav .ancre_text:hover /*survol bordure top ancre */
 {
 	border-top: 2px solid #0065FC;
 
 }
 
-#ancre_text:hover,#ancre_text:visited .lien:hover /* survol et viste ancre */ 
+.ancre_text:hover,.ancre_text:visited .lien:hover /* survol et viste ancre */ 
 {
 	color:#0065FC;
 	
@@ -150,7 +154,7 @@ h1
 	text-align: justify;
 	}
 
-#p1
+.p1
 {
 	font-size: small;
 }
@@ -286,7 +290,7 @@ font-size: 10px;
 	
 }
 
-.filtre:hover,.colorfiltres:hover,.colorfiltres2:hover
+.filtre1:hover,.filtre2:hover,.filtre3:hover,.filtre4:hover,.colorfiltres:hover,.colorfiltres2:hover
 {
 	color: green
 }
@@ -322,6 +326,14 @@ h2 /* Texte de hebergement de Marseille */
 	text-align: justify;
 }
 
+h2-afficher
+{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 46px;
+	margin-left: 42px;
+	text-align: justify;
+}
 
 /* Bloc haut de l'hébergement */
 #bloca_top
@@ -361,13 +373,13 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 5px;	
 }
 
-h3_mars:hover
+h3-mars:hover
 {
 	color: green;
 }
 
 
-h3_mars
+h3-mars
 {
 	display: inline-block;
 	position:relative;
@@ -576,7 +588,7 @@ h3-pop:hover
 	margin-top: -800px;
 	
 }
-#lien_activites:hover
+.lien_activites:hover
 {
 	color: green;
 }
@@ -738,7 +750,7 @@ h4
 	left: 112px;	
 	}
 
-#lien_activites
+.lien_activites
 {
 	color: black;
 	align-self: flex-start;
@@ -779,4 +791,211 @@ h3-footer
 	margin-top: 25px;
 	margin-bottom:20px;
 	font-size: 13px;
+}
+
+@media all and (max-width: 980px)
+{
+
+	#bloc_page
+{
+	width: auto;
+}
+
+.logo_reservia
+{
+	display: flex;
+	
+	margin: auto;
+}
+
+header-main
+{
+	margin-left:auto;
+}
+
+nav
+{
+	width: auto;
+	text-align: left;
+}
+
+nav ul
+{
+	display: flex;
+	justify-content: flex-start;
+	margin-left:auto;
+}
+
+li
+{
+	flex-wrap: wrap;
+	order: 2;
+	flex: 1 50%;
+	justify-content: flex-start;
+	border-top: 0;
+	
+}
+
+.nav_text
+{
+	order:1;
+
+
+}
+section
+{
+	display:flex;
+	flex-direction: column-reverse;
+}
+.filtre
+
+{
+	display: flex;
+	flex-wrap:wrap;
+	margin-top: 15px;
+	
+}
+
+.eco
+{
+	
+	width: 180px;
+	flex: 2 50%;
+}
+
+.fam
+{
+	display: flex;
+	flex-direction: flex-start;
+	width: 140px;
+	
+}
+
+.rom
+{
+	width: 170px;
+}
+
+.anim
+{
+	width: 220px;
+}
+
+.iconename
+{
+	vertical-align: middle;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+.p1
+{
+	font-size: 16px;
+	text-align: justify;
+	flex-wrap: wrap;
+}
+
+#populaire
+{
+	width: 375px;
+	height: 580px;
+	border-radius: 0;
+	padding-left: 20px;
+	margin-bottom: -150px;
+	padding-bottom: 40px;
+}
+
+#hébergements
+{
+	margin-top: 150px;
+	background-color:none;
+}
+
+h2
+{
+	margin-left: auto;
+	
+	
+}
+#marseille
+{
+	
+	order:0;	
+	background-color:white;
+	margin-left: 20px;
+	margin-top: 40px;	
+}
+
+#bloca_top, #bloca_bottom
+{
+display: flex;
+flex-direction: column;
+margin-left: -10px;	
+}
+
+{
+			
+	
+}
+
+#blocb
+{
+		
+	
+}
+
+h2-afficher
+{
+	margin-left: auto;
+	font-size: 13px;
+}	
+
+#activites_bloc
+{
+	margin-top: 700px;
+	display:flex;
+	flex-direction: column ;
+}
+
+#vieux_port_bloc
+{
+	width: 245px; ;
+	height: 200px;
+	border-radius: 30px 30px 30px 30px; 
+}
+
+
+
+#photo_vieux_port
+{
+	width: 235px; ;
+	height: 115px;
+	border-radius: 20px 20px 0px 0px; 
+}
+
+h4
+{
+	margin-top: 10px;
+
+
+.lien_afficher
+{
+	margin-top: -550px;
+}
+
+footer
+{
+	display: flex;
+	vertical-align:text-bottom;
+	flex-direction: column;
+
+}
+.bloc_footer
+{
+	display:flex;
+	flex-direction: column;
+	
+
+}
+
+
 }
