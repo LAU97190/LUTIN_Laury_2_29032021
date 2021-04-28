@@ -65,17 +65,24 @@ body
 {
 	font-family: 'Raleway'Times New, Roman;
 }
-/* Bloc hearder */
-header
+
+.header-info/* hearder info */
+{
+	width: 1440px;
+	height: 90px;
+}
+
+
+header/* Bloc hearder */
 {
 	border: solid white;
 	width: 1440px;
-	height: 426px ;
+	height: 336px ;
 }
 
 .logo_reservia /* logo */
 {
-	float: left;
+	
 	width: 95px;
 	height: 29px;
 	margin-top: 53px;
@@ -89,7 +96,7 @@ nav /* bloc de navigation */
 	
 }
 
-li /*bloc des puces */
+.ancre_text /*bloc des puces */
 {
 	display: inline-block;
 	justify-content: space-around;
@@ -122,7 +129,7 @@ li /*bloc des puces */
 	
 }
 
-li:hover /* survol puce*/
+.ancre_text:hover /* survol puce*/
 {
 	text-decoration: #0065FC;
 	color:#0065FC;
@@ -803,42 +810,41 @@ h3-footer
 
 .logo_reservia
 {
-	display: flex;
+
+margin-right: auto;	
 	
-	margin: auto;
 }
 
-header-main
+.header_info
 {
-	margin-left:auto;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+	
 }
+
 
 nav
 {
-	width: auto;
-	text-align: left;
-}
-
-nav ul
-{
+	order: 1;
 	display: flex;
-	justify-content: flex-start;
-	margin-left:auto;
+	flex:1 50%;
+	align-items: flex-start;
+
 }
 
-li
+.ancre_text
 {
-	flex-wrap: wrap;
-	order: 2;
-	flex: 1 50%;
-	justify-content: flex-start;
-	border-top: 0;
-	
+	text-align: center;
 }
+
+
 
 .nav_text
 {
-	order:1;
+	text-align: center;
+}
+			
 
 
 }
