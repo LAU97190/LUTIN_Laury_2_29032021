@@ -66,18 +66,21 @@ body
 	font-family: 'Raleway'Times New, Roman;
 }
 
-.header-info/* hearder info */
+header/* hearder info */
 {
 	width: 1440px;
 	height: 90px;
 }
 
 
-header/* Bloc hearder */
+.section-info/* Bloc hearder */
 {
-	border: solid white;
+	
 	width: 1440px;
 	height: 336px ;
+	margin-top: auto;
+	display: inline-block;
+	justify-content: left;
 }
 
 .logo_reservia /* logo */
@@ -96,7 +99,7 @@ nav /* bloc de navigation */
 	
 }
 
-.ancre_text /*bloc des puces */
+nav a /*bloc des puces */
 {
 	display: inline-block;
 	justify-content: space-around;
@@ -112,7 +115,7 @@ nav /* bloc de navigation */
 
 
 
-.ancre_text /* ancre */
+nav a /* ancre */
 {
 	
 	
@@ -129,7 +132,7 @@ nav /* bloc de navigation */
 	
 }
 
-.ancre_text:hover /* survol puce*/
+nav a:hover /* survol puce*/
 {
 	text-decoration: #0065FC;
 	color:#0065FC;
@@ -138,9 +141,9 @@ nav /* bloc de navigation */
 }
 
 
-nav .ancre_text:hover /*survol bordure top ancre */
+.nav_text:hover /*survol bordure top ancre */
 {
-	border-top: 2px solid #0065FC;
+	border-top:  none;
 
 }
 
@@ -202,6 +205,7 @@ h1
 	border-radius: 0px 10px 10px 0px;
 	padding-top: 2,5px;
 	color:white
+	
 }
 
 
@@ -222,6 +226,7 @@ h1
 	height: 20px;
 	margin-left: 35px;
 	margin-bottom: 45px;
+	
 }
 
 
@@ -230,7 +235,8 @@ h1
 {
 margin-left: -2px;
 margin-right: 25px;
-margin-bottom: 50px;
+margin-top: 30px;
+margin-bottom: 40px;
 }
 
 .filtre
@@ -240,8 +246,15 @@ border: #F2F2F2 solid;
 border-radius: 40px;
 font-weight: bold;
 margin-right: 25px;
+
 }
 
+.filtre-text
+{
+	margin-right: 10px;
+	font-weight: bold;
+	
+}
 .icone
 {
 
@@ -255,7 +268,7 @@ margin-bottom: -2px;
 
 .backcolor
 {
-color: #DEEBFF ;
+	color: #DEEBFF ;
 }
 
 .colorfiltres
@@ -284,7 +297,7 @@ margin-right: 25px;
 color: #F2F2F2 ;
 }
 
-.colorfiltres2
+.colorfiltres2, 
 {
 color: #0065FC ;
 font-size: 10px;
@@ -297,7 +310,7 @@ font-size: 10px;
 	
 }
 
-.filtre1:hover,.filtre2:hover,.filtre3:hover,.filtre4:hover,.colorfiltres:hover,.colorfiltres2:hover
+.filtre-eco:hover,.filtre-fam:hover,.filtre-rom:hover,.filtre-anim:hover,.colorfiltres:hover,.colorfiltres2:hover
 {
 	color: green
 }
@@ -308,7 +321,7 @@ section
 	width: 1342px;
 	height: 1240px ;
 	font-family: 'Raleway'Times New, Roman, serif;
-	margin-top: -75px;
+	margin-top: auto;
 }
 
 /* Bloc hebergement de Marseille */
@@ -333,7 +346,7 @@ h2 /* Texte de hebergement de Marseille */
 	text-align: justify;
 }
 
-h2-afficher
+.afficher
 {
 	font-size: 18px;
 	font-weight: bold;
@@ -472,7 +485,7 @@ h3-mars
 	height: 625px;
 	background-color:#F2F2F2;
 	border-radius: 30px;
-	
+	padding-left: 35px;
 }
 	
 #chart
@@ -785,12 +798,13 @@ footer
 	text-align: justify;
 	margin-left: 57px;
 	margin-right: 230px;
+	padding-left: 50px;
 }
 
 h3-footer
 {
 	font-weight: bold;
-	margin-left: -1px;
+	
 }	
 
 .text_footer
@@ -802,206 +816,180 @@ h3-footer
 
 @media all and (max-width: 980px)
 {
-
 	#bloc_page
 {
 	width: auto;
 }
 
-.logo_reservia
+header
 {
-
-margin-right: auto;	
-	
-}
-
-.header_info
-{
+	width: auto;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-end;	
 	flex-wrap: wrap;
 	
+	
 }
 
+.logo_reservia
+{
+margin-right: auto;
+
+}
 
 nav
 {
-	order: 1;
-	display: flex;
-	flex:1 50%;
-	align-items: flex-start;
+display: flex;
+order: 1;
+justify-items: flex-end;
+margin-top: -20px;
+text-align: center;	
 
 }
 
-.ancre_text
+nav a
 {
-	text-align: center;
+
+flex: 1 50%;
+
 }
-
-
 
 .nav_text
 {
-	text-align: center;
+	margin-left: -55px;
+	
 }
-			
 
-
-}
-section
+nav a:hover, nav a:visited
 {
-	display:flex;
+	padding-top: 0;
+
+	
+	border-top: 0;
+	border-bottom: solid #0065FC;
+}
+
+.nav_text:hover
+{
+	padding-top: 0;
+	text-decoration: none;
+
+}
+
+.titre1
+{
+	
+}
+.section-info
+{
+display: flex;
+align-items: flex-start;
+width: auto;
+margin-top: 40px;
+}
+
+h1
+{
+display: flex;
+	flex: 1 100%;
+	flex-wrap: wrap;
+
+}
+
+
+#filtres
+{
+	margin-top: 35px;	
+	display: flex;
+
+}
+
+.filtre-fam
+{
+
+}
+
+.filtre
+{
+margin-top: 35px;
+}
+
+.text_info
+{
+	
+}
+
+.logement
+{
+	margin-top: 200px;
+	display: flex;
 	flex-direction: column-reverse;
 }
-.filtre
 
+.titre-populaire
 {
-	display: flex;
-	flex-wrap:wrap;
-	margin-top: 15px;
-	
-}
-
-.eco
-{
-	
-	width: 180px;
-	flex: 2 50%;
-}
-
-.fam
-{
-	display: flex;
-	flex-direction: flex-start;
-	width: 140px;
-	
-}
-
-.rom
-{
-	width: 170px;
-}
-
-.anim
-{
-	width: 220px;
-}
-
-.iconename
-{
-	vertical-align: middle;
-	padding-top: 5px;
-	margin-left: 10px;
-}
-.p1
-{
-	font-size: 16px;
-	text-align: justify;
-	flex-wrap: wrap;
+margin-left: 15px;
 }
 
 #populaire
 {
 	width: 375px;
-	height: 580px;
-	border-radius: 0;
+    height: 580px;
+    border-radius: 0;
 	padding-left: 20px;
-	margin-bottom: -150px;
-	padding-bottom: 40px;
+        padding-bottom: 40px;
 }
 
-#hébergements
-{
-	margin-top: 150px;
-	background-color:none;
-}
-
-h2
-{
-	margin-left: auto;
-	
-	
-}
 #marseille
 {
-	
-	order:0;	
+	margin-top: 25px;
 	background-color:white;
-	margin-left: 20px;
-	margin-top: 40px;	
 }
 
 #bloca_top, #bloca_bottom
 {
 display: flex;
 flex-direction: column;
-margin-left: -10px;	
+margin-left: 100px;
 }
 
+.hotel_bloc
 {
-			
+width:337px;
+height: 200px;
+margin-left: -70px;
+border:solid 0.5px #F2F2F2;
+}
+
+.hotel_photo
+{
+width: 325px;
+height: 115px;
+}
+
+.star_hebergement
+{
+margin-right: 250px;
+
+}
+.afficher
+{
+margin-top: 35px;
 	
 }
-
-#blocb
-{
-		
-	
-}
-
-h2-afficher
-{
-	margin-left: auto;
-	font-size: 13px;
-}	
 
 #activites_bloc
 {
-	margin-top: 700px;
-	display:flex;
-	flex-direction: column ;
+	margin-top:860px;
+
 }
 
-#vieux_port_bloc
-{
-	width: 245px; ;
-	height: 200px;
-	border-radius: 30px 30px 30px 30px; 
-}
-
-
-
-#photo_vieux_port
-{
-	width: 235px; ;
-	height: 115px;
-	border-radius: 20px 20px 0px 0px; 
-}
-
-h4
-{
-	margin-top: 10px;
-
-
-.lien_afficher
-{
-	margin-top: -550px;
-}
 
 footer
 {
-	display: flex;
-	vertical-align:text-bottom;
-	flex-direction: column;
-
+	margin-top: 3000px;
 }
-.bloc_footer
-{
-	display:flex;
-	flex-direction: column;
-	
 
-}
 
 
 }
