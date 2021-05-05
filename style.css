@@ -210,33 +210,31 @@ h1
 
 
 
-.filtre_text /* bloc texte filtre */
+.filtre-text /* bloc texte filtre */
 {
-	display: inline-block;
+	
 	margin-top: 50px;	
 	margin-right: 35px;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 15px;
+	margin-right: 10px;
 }
 
-#filtre_bloc /* bloc filtre */
+
+#barre
 {
-	display: flex;
-	width: 934px;
-	height: 20px;
-	margin-left: 35px;
-	margin-bottom: 45px;
+	margin-bottom: 35px;
 	
 }
 
-
-
 .filtres
 {
-margin-left: -2px;
+
+margin-top: -25px;	margin-left: 85px;
 margin-right: 25px;
-margin-top: 30px;
+
 margin-bottom: 40px;
+
 }
 
 .filtre
@@ -249,12 +247,7 @@ margin-right: 25px;
 
 }
 
-.filtre-text
-{
-	margin-right: 10px;
-	font-weight: bold;
-	
-}
+
 .icone
 {
 
@@ -290,6 +283,7 @@ font-size: 15px;
 {
 margin-left: -10px;
 margin-right: 25px;
+
 }
 
 .cercleinfo
@@ -307,7 +301,8 @@ font-size: 10px;
 {
 	font-size: 15px;
 	margin-right: 25px;
-	
+	text-align: justifyù-;
+
 }
 
 .filtre-eco:hover,.filtre-fam:hover,.filtre-rom:hover,.filtre-anim:hover,.colorfiltres:hover,.colorfiltres2:hover
@@ -393,13 +388,13 @@ h2 /* Texte de hebergement de Marseille */
 	margin-right: 5px;	
 }
 
-h3-mars:hover
+.h3mars:hover
 {
 	color: green;
 }
 
 
-h3-mars
+.h3mars
 {
 	display: inline-block;
 	position:relative;
@@ -486,7 +481,7 @@ h3-mars
 	background-color:#F2F2F2;
 	border-radius: 30px;
 	padding-left: 35px;
-}
+	}
 	
 #chart
 {
@@ -536,7 +531,7 @@ h3-mars
 	margin-right: 5px;	
 }
 
-h3-pop
+.h3pop
 {
 	display: inline-block;
 	color: black;
@@ -557,7 +552,7 @@ h3-pop
 	margin-bottom: 35px;
 }
 
-h3-pop:hover
+.h3pop:hover
 {
 	color:green;
 }
@@ -876,10 +871,6 @@ nav a:hover, nav a:visited
 
 }
 
-.titre1
-{
-	
-}
 .section-info
 {
 display: flex;
@@ -897,21 +888,21 @@ display: flex;
 }
 
 
-#filtres
+.bloc-filtres
 {
-	margin-top: 35px;	
 	display: flex;
+	flex-wrap: wrap;
+	
 
 }
 
-.filtre-fam
-{
 
-}
 
 .filtre
 {
 margin-top: 35px;
+
+
 }
 
 .text_info
@@ -937,19 +928,20 @@ margin-left: 15px;
     height: 580px;
     border-radius: 0;
 	padding-left: 20px;
-        padding-bottom: 40px;
+    padding-bottom: auto;
 }
 
 #marseille
 {
 	margin-top: 25px;
 	background-color:white;
+	margin-bottom: -45px;
 }
 
 #bloca_top, #bloca_bottom
 {
 display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
 margin-left: 100px;
 }
 
@@ -975,13 +967,15 @@ margin-right: 250px;
 .afficher
 {
 margin-top: 35px;
-	
+
 }
 
 #activites_bloc
 {
-	margin-top:860px;
+	margin-top:950px;
+	display: flex;
 
+justify-content: space-between;
 }
 
 
