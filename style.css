@@ -298,11 +298,16 @@ font-size: 10px;
 {
 	font-size: 15px;
 	margin-right: 25px;
-	text-align: justifyù-;
+	text-align: justify;
 
 }
 
 .filtre-eco:hover,.filtre-fam:hover,.filtre-rom:hover,.filtre-anim:hover,.colorfiltres:hover,.colorfiltres2:hover
+{
+	color: green
+}
+
+.filtre:hover
 {
 	color: green
 }
@@ -313,7 +318,7 @@ section
 	width: 1342px;
 	height: 1240px ;
 	font-family: 'Raleway'Times New, Roman, serif;
-	margin-top: auto;
+	margin-top: 55px;
 }
 
 /* Bloc hebergement de Marseille */
@@ -810,7 +815,7 @@ footer p
 {
 	#bloc_page
 {
-	width: auto;
+	max-width: 375px;
 }
 header
 {
@@ -819,6 +824,7 @@ header
 	flex-wrap: wrap;
 	text-decoration: none;
 	
+
 }
 
 .logo_reservia
@@ -831,7 +837,7 @@ header nav
     order: 1;
     flex: 1 100%;
     display: flex;
-margin-left: 40px;
+	margin-left: 40px;
 }
 
 
@@ -887,33 +893,40 @@ width: 270px;
 font-size: 18px;
 }
 
-.bloc-filtres
+.filtre-text
 {
-
-
-	
-
+	margin-top: -1px;
 }
-
-
-
 .filtres
 {
-	display: inline-block;
-	
+	width: 350px;
+	margin-top: 10px;
+}
 
+
+
+.filtre
+{
+margin-left: -85px;
+margin-right: 100px;	 
+margin-top: 15px;
 
 }
 
+.icone_info
+{
+	width: -auto;
+}
 
 .text_info
 {
-
+	font-size: 18px;
+	
 }
 
 .logement
 {
-	margin-top: 200px;
+	margin-top: 150px;
 	display: flex;
 	flex-direction: column-reverse;
 }
@@ -937,7 +950,7 @@ margin-left: 15px;
 	margin-top: 25px;
 	background-color:white;
 	margin-bottom: -45px;
-}
+	}
 
 #bloca_top, #bloca_bottom
 {
@@ -973,7 +986,7 @@ margin-top: 35px;
 
 #activites_bloc
 {
-	margin-top:950px;
+	margin-top:880px;
 	width:334px;
 	height: 1355px;
 
@@ -982,8 +995,8 @@ margin-top: 35px;
 .cards_activites
 {
 	display: flex;
-margin-left: 35px;
-align-content: flex-start;
+	margin-left: 35px;
+	align-content: flex-start;
 	margin-bottom: -400px;
 }
 
@@ -1069,7 +1082,7 @@ align-content: flex-start;
 footer
 {
 	margin-left: 100px;
-	margin-top: 2700px;
+	margin-top: 2620px;
 	width: 375px;
 	height: 486px;
 
