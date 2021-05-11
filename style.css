@@ -168,7 +168,7 @@ h1
 
 
 
-#barre /* Bloc rechercher */
+.barre /* Bloc rechercher */
 {
 	display: flex;
 	justify-content:flex-start;
@@ -218,11 +218,18 @@ h1
 }
 
 
-#barre
+.barre
 {
 	margin-bottom: 35px;
 	
 }
+
+.bloc-filtres
+{
+	display: flex;
+	flex-direction: column ;
+}
+
 
 .filtres
 {
@@ -288,7 +295,7 @@ margin-right: 25px;
 color: #F2F2F2 ;
 }
 
-.colorfiltres2, 
+.colorfiltres2
 {
 color: #0065FC ;
 font-size: 10px;
@@ -347,7 +354,6 @@ h2 /* Texte de hebergement de Marseille */
 {
 	font-size: 18px;
 	font-weight: bold;
-	margin-top: 46px;
 	margin-left: 42px;
 	text-align: justify;
 }
@@ -426,7 +432,7 @@ h2 /* Texte de hebergement de Marseille */
 .star_hebergement
 {
 	display: flex;
-	
+	margin-left: 15px;
 	margin-right: 160px;
 	width: 68px;
 	height: 13px;
@@ -449,7 +455,7 @@ h2 /* Texte de hebergement de Marseille */
 	flex-wrap: nowrap;
 	margin-right: 40px;
 	margin-left: 40px;
-	
+	margin-bottom: 46px;
 }
 
 .text_prix
@@ -541,6 +547,7 @@ h2 /* Texte de hebergement de Marseille */
 	font-size: 15px;
 	font-weight: bold;
 	margin-top: -30px;
+	padding-bottom: 20px;
 }
 
 .text_pop
@@ -552,16 +559,20 @@ h2 /* Texte de hebergement de Marseille */
 	margin-top: -95px;
 	margin-left: 155px;
 	margin-bottom: 35px;
+	width: 200px;
 }
 
-.h3pop:hover
+h3.h3pop:hover
 {
 	color:green;
 }
 
 .pop_prix
 {
-	margin-left: 1px;
+	margin-left: -115px;
+margin-top: -35px;
+font-size: 13px;
+margin-bottom: 45px;
 }
 
 .star_pop
@@ -611,9 +622,10 @@ h2 /* Texte de hebergement de Marseille */
 }
 
 /* Bloc Vieux Port */
-#vieux_port_bloc
+.vieux_port_bloc
 {
-
+display: flex;
+flex-direction: column;
 	width: 304px;
 	height: 440px;
 	border-bottom:solid #F2F2F2;
@@ -630,14 +642,14 @@ h2 /* Texte de hebergement de Marseille */
 	height: 388px;
 	border-radius: 25px 25px 0px 0px; 
 	left: 112px;	
+	margin-bottom: 15px;
 }
 
-h4
+.titre-activite
 {
-	margin-left: 20px;	
+		
 	font-size: 15px;
 	font-weight: bold;
-	margin-top: 20px;
 	margin-left: 30px;
 	text-align: justify;
 	
@@ -646,7 +658,7 @@ h4
 
 /* Bloc Fort de pomègues  */
 
-#pomegues_bloc
+.pomegues_bloc
 {
 	display: flex;
 	flex-direction: column;
@@ -667,15 +679,17 @@ h4
 	width: 305px ;
 	height: 180px;
 	border-radius: 25px 25px 0px 0px; 
-	left: 112px;	
+	left: 112px;
+	margin-bottom: 15px;	
 }
 
 
 /* Bloc Au coeur de l'eau chambre d'hôtes */
 
-#friou_bloc
+.friou_bloc
 {
-	
+	display: flex;
+	flex-direction: column;
 	width: 305px;
 	height: 165px;
 	border-bottom:solid #F2F2F2;
@@ -691,13 +705,15 @@ h4
 	width: 305px ;
 	height: 110px;
 	border-radius: 25px 25px 0px 0px; 
-	left: 112px;	
+	left: 112px;
+	margin-bottom: 15px;	
 	}
 
 /* Bloc parc National des Calanques */
 #calanque_bloc
 {
-
+	display: flex;
+	flex-direction: column;
 	width: 305px;
 	height: 440px;
 	border-bottom:solid #F2F2F2;
@@ -740,7 +756,7 @@ h4
 	height: 140px;
 	border-radius: 25px 25px 0px 0px; 
 	left: 112px;
-		
+	margin-bottom: 15px;	
 }
 
 
@@ -764,7 +780,8 @@ h4
 	width: 305px ;
 	height: 150px;
 	border-radius: 25px 25px 0px 0px; 
-	left: 112px;	
+	left: 112px;
+	margin-bottom: 15px;	
 	}
 
 .lien_activites
@@ -798,7 +815,7 @@ footer
 	padding-left: 50px;
 }
 
-footer h3
+footer a
 {
 	font-weight: bold;
 	
@@ -877,6 +894,7 @@ header nav a:hover, header nav a:visited
 .section-info
 {
 display: flex;
+flex-direction: column;
 align-items: flex-start;
 width: auto;
 margin-top: 40px;
@@ -1000,7 +1018,7 @@ margin-top: 35px;
 	margin-bottom: -400px;
 }
 
-#vieux_port_bloc
+.vieux_port_bloc
 {
 	width:334px;
 	height: 190px;
@@ -1013,7 +1031,7 @@ margin-top: 35px;
 	height: 135px;
 }
 
-#pomegues_bloc
+.pomegues_bloc
 {
 	margin-left: -335px;
 	margin-top: 250px;
@@ -1026,7 +1044,7 @@ margin-top: 35px;
 	height: 135px;
 }
 
-#friou_bloc
+.friou_bloc
 {
 	margin-left: -335px;
 	margin-top: 470px;
@@ -1088,10 +1106,10 @@ footer
 
 }
 
-footer h3
+footer a
 {
 	margin-left: -85px;
-	margin-bottom: 30px;
+	padding-bottom: 30px;
 	font-size: 20px;
 }
 
@@ -1109,9 +1127,7 @@ footer h3
 }
 
 
-{
-	margin-top: 20px;
-}
+
 footer p
 {
 margin-top: -5px;
