@@ -63,7 +63,7 @@ table {
 
 body 
 {
-	font-family: 'Raleway'Times New, Roman;
+	font-family: 'Raleway', Times New Roman, serif;
 }
 
 header/* hearder info */
@@ -200,7 +200,7 @@ h1
 	flex: 2;
 	background-color:#0065FC;
 	border-radius: 0px 10px 10px 0px;
-	padding-top: 2,5px;
+	padding-top: 3px;
 	color:white
 	
 }
@@ -324,7 +324,6 @@ section
 	display: flex;
 	width: 1342px;
 	height: 1240px ;
-	font-family: 'Raleway'Times New, Roman, serif;
 	margin-top: 55px;
 }
 
@@ -336,9 +335,6 @@ section
 	background-color:#F2F2F2;
 	border-radius: 30px;
 	margin-right: 40px;
-	font-family: 'Raleway'Times New, Roman, serif;
-	
-	
 }
 
 h2 /* Texte de hebergement de Marseille */
@@ -529,7 +525,6 @@ h2 /* Texte de hebergement de Marseille */
 	align-content: flex-start;
 	width: 345px ;
 	height: 145px;
-	border:solid white;
 	background-color: white;
 	border-radius: 30px;
 	margin-top: 25px ;
@@ -556,7 +551,7 @@ h2 /* Texte de hebergement de Marseille */
 	font-weight: bold;
 	margin-top: -30px;
 	padding-bottom: 20px;
-	padding-left: -100px;
+	
 }
 
 .text_pop
@@ -901,10 +896,7 @@ header nav a:hover, header nav a:visited
     padding-bottom: 17px;
 }
 
-.nav_text:hover
-{
-	padding-top: none;
-}
+
 
 .section-info
 {
