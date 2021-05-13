@@ -295,7 +295,7 @@ color: #F2F2F2 ;
 .colorfiltres2
 {
 color: #0065FC ;
-font-size: 12px;
+font-size: 14px;
 }
 
 .text_info
@@ -599,10 +599,6 @@ font-size: 14px;
 	font-weight: bolder;
 }
 
-#afficher
-{
-		margin-bottom: 50px;
-}
 
 #activites_bloc
 {
@@ -803,7 +799,7 @@ flex-direction: column;
 footer
 {
 	display: flex;
-		width: 66%;
+	width: 66%;
 	height: 218px;
 	padding-left: 50px;
 	background-color:#F2F2F2;
@@ -812,7 +808,8 @@ footer
 
 .bloc_footer
 {
-  
+	display: flex;
+	flex-direction: column;
 
 	margin-top: 50px;
 	text-align: justify;
@@ -825,12 +822,12 @@ footer
 footer a
 {
 	font-weight: bold;
-	
+	margin-bottom: 30px;
 }	
 
-footer p
+.text_footer
 {
-	margin-top: 25px;
+	
 	margin-bottom:20px;
 	font-size: 13px;
 }
@@ -936,7 +933,7 @@ margin-top: 15px;
 .text_info
 {
 	font-size: 18px;
-	
+	width: 50;
 }
 
 .logement
@@ -946,10 +943,23 @@ margin-top: 15px;
 	flex-direction: column-reverse;
 
 }
+.text_info
+{
+	margin-left: 15px;	
+
+}
+
+.icone_info
+{	
+	display: flex;
+	width: 90%;	
+		
+}
 
 .titre-populaire
 {
-margin-left: 15px;
+margin-left: 10px;
+margin-right: 120px;
 }
 
 #populaire
@@ -960,26 +970,24 @@ margin-left: 15px;
 	padding-left: 20px;
     padding-bottom: 37px;
 	margin-left: 0px;
-	margin-top: 0px;
-	
+	margin-top: 0px;	
 }
+
+
+
 
 #marseille
 {
 	display: flex;
 	flex-direction: column;
-	
 	margin-left: 47px;
 	background-color:white;
 	}
 
- .hébergements, .afficher/* Texte de hebergement de Marseille */
-	{
-		
+.hébergements/* Texte de hebergement de Marseille */
+{
 
-		margin-left: -12px;
-
-	}
+}
 
 #bloca_top,#bloca_bottom 
 {
@@ -1009,7 +1017,9 @@ margin-right: 250px;
 
 .afficher
 {
-margin-top: 35px;
+margin-left: -20px;
+font-weight: bold;
+
 }
 
 #activites_bloc
@@ -1117,19 +1127,19 @@ footer
 {
 	width: 375px;
     height: 486px;
-	display: flex;
-	flex-direction: column;  
-	justify-content: space-between; 
+	display:flex;
+	flex-direction: column;
 	margin-left: 50px;
 	margin-top: 100px;
 	background-color:#F2F2F2;
-padding-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 footer a
 {
 	
 	font-size: 20px;
+	margin-left: -76px;
 	
 }
 
@@ -1137,23 +1147,19 @@ footer a
 .bloc_footer
 {
 width: 200px;
+display:flex;
+flex-direction: column;
+margin-top: 40px;
 
 }
 
-.herbergement, .assistance 
+.text_footer
 {
-	margin-top: 20px;
-
+	margin-top: 0px;
+	font-size: 16px;
+	margin-left: -76px;
 }
 
 
-
-footer p
-{
- 
-
-font-size: 16px;
-
-}
 
 }
