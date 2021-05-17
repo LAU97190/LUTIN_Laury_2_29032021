@@ -50,9 +50,6 @@ table {
 #bloc_page /* Bloc page*/
 {
 	width: 100%;
-	
-
-	
 }
 
 @font-face
@@ -69,7 +66,6 @@ header/* hearder info */
 {
 margin-bottom: 45px;
 margin-left: 45px;
-	
 }
 
 
@@ -84,7 +80,6 @@ margin-left: 45px;
 .logement /* Bloc logement */
 {
 	margin-left: 45px;
-	
 }
 
 .logo_reservia /* logo */
@@ -100,7 +95,6 @@ header nav /* bloc de navigation */
 {
 	display: inline-block;
 	margin-left: 830px;
-	
 }
 
 header nav a /*bloc nav */
@@ -147,12 +141,11 @@ nav a:hover /* survol puce*/
 }
 
 
-
 h1 /* Trouvez votre Hébergements... */
 {
 	
 	margin-bottom: 15px;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: bold;
 	text-align: justify;
 	}
@@ -162,31 +155,37 @@ h1 /* Trouvez votre Hébergements... */
 	font-size: small;
 }
 
-
-
 .barre /* Bloc rechercher */
 {
+	visibility:visible;
 	display: flex;
 	justify-content:flex-start;
-	width: 305px;
-	height: 36px;
+	width: 40%;
+	height: 50px;
 	margin-top: 25px;
-	border: #F2F2F2;
-	border-radius: 10px;
-	
-	
+	border-right: solid white;
+	border: solid 1px #F2F2F2 ;
+	border-radius: 13px 13px 13px 13px;
+}
+
+.barre_responsive
+{
+	display: none;
+	visibility: hidden;
 }
 
 .fa1 /* icône position */
 {	
 	text-align: center;
-	width: 53px;
-	height: 26.5px;
+	width: 50px;
+	height: auto;
 	background-color: #F2F2F2;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-right: 6px;
 	padding-left: 5px;
-	border-radius: 10px 0px 0px 10px;
+	border-radius: 13px 0px 0px 13px;
+	font-size: 20px;
+	
 }
 
 button /* texte rechercher */
@@ -196,12 +195,19 @@ button /* texte rechercher */
 	align-items: center;
 	width: 135px;
 	background-color:#0065FC;
-	border-radius: 0px 10px 10px 0px;
+	border-radius: 0px 13px 13px 0px;
 	padding-top: 3px;
 	color: white;
 }
 
-
+#search_text
+{
+	width: 50%;
+	border: #F2F2F2;
+	font-size: 17px;
+	padding-left: 20px;
+	font-weight: bold;
+}
 
 .filtre-text /* bloc texte filtre */
 {
@@ -811,15 +817,13 @@ header nav /* Nav header responsive*/
     order: 1;
     flex: 1 100%;
     display: flex;
-   
-	
 }
 
 
 header nav a  /* header nav a responsive*/
 {
     flex: 1;
-    text-align: end;
+    text-align: center;
     padding-top: 0;
     font-size: 16px; 
 	padding-right: 90px;
@@ -842,6 +846,89 @@ header nav a:hover, header nav a:visited /* suvol nav responsive*/
     padding-bottom: 17px;
 }
 
+.p1 /* Paragraphe En plein centre ... */ 
+{
+	font-size: 16px;
+}
+
+.barre
+{
+display: none;
+visibility: hidden;
+}
+
+.barre_recherche
+{
+visibility:visible;
+display: flex;
+justify-content: flex-start;
+width: 100%;
+}
+
+
+.barre_responsive/* Bloc rechercher */
+{
+	display: flex;
+	justify-content:flex-start;
+	width: 75%;
+	height: 48px;
+	margin-top: 25px;
+	border:solid 1px #F2F2F2;
+	border-right: solid white;
+	border-radius: 15px 15px 15px 15px;
+}
+
+.fa-search
+{
+	font-size: 15px;
+
+}
+
+#search_text
+{
+	width: 100%;
+	border: #F2F2F2;
+	font-size: 17px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.fa1 /* icône position */
+{	
+	text-align: center;
+	width: 50px;
+	height: 70%;
+	background-color: #F2F2F2;
+	padding-top: 15px;
+	padding-right: 6px;
+	padding-left: 5px;
+	border-radius: 13px 0px 0px 13px;
+	font-size: 20px;
+
+}
+
+button /* texte rechercher */
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15%;
+	height: 50px;
+	border: solid #0065FC;
+	background-color:#0065FC;
+	border-radius: 13px 13px 13px 13px;
+	padding-top: 3px;
+	color: white;
+	font-size: 15px;
+	margin-top: -1px;
+	
+}
+
+.filtre-text
+{
+	font-size: 15px;
+	font-weight: bold;
+}
 
 .section-info /* Section info responsive*/
 {
@@ -890,7 +977,7 @@ font-size: 20px;
 .text_info /* Texte info responsive*/
 {
    width: 65%;
-	font-size: 15px;
+font-size: 15px;
    
 }
 
