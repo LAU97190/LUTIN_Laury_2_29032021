@@ -609,6 +609,7 @@ flex-direction: column;
 	border-right: solid #F2F2F2;
 	border-radius: 30px;
 	margin-top: 30px;
+	padding-right: 1px;
 }
 
 #photo_vieux_port /* Photo Vieux Port */
@@ -640,11 +641,12 @@ flex-direction: column;
 	border-radius: 30px;
 	margin-left: 345px;
 	margin-top: -448px;
+	padding-right: 5px;
 }
 
 #photo_pomegues /* Photo Fort de pomègues  */
 {
-	width: 305px ;
+	width: 310px ;
 	height: 180px;
 	border-radius: 25px 25px 0px 0px; 
 	left: 112px;
@@ -662,6 +664,8 @@ flex-direction: column;
 	border-radius: 30px;
 	margin-left: 345px;
 	margin-top: 43px;
+	padding-right: 1px;
+
 }
 
 #photo_frioul /* Photo ïles de Frioul*/
@@ -677,7 +681,6 @@ flex-direction: column;
 
 .calanque_bloc /* Bloc parc National des Calanques */
 {
-	
 	width: 304px;
 	height: 445px;
 	border-bottom:solid #F2F2F2;
@@ -686,7 +689,7 @@ flex-direction: column;
 	border-radius: 30px;
 	margin-left: 690px;
 	margin-top: -444px;
-	
+	padding-right: 1px;
 }
 
 #photo_calanques/* Bloc photo parc National des Calanques */
@@ -709,6 +712,7 @@ flex-direction: column;
 	border-radius: 30px;
 	margin-left: 1034px;
 	margin-top: -448px;
+	padding-right: 1px;
 }
 
 #photo_garde /* Bloc photo Notre-Dame-de-la-Garde*/
@@ -732,6 +736,7 @@ flex-direction: column;
 	border-radius: 30px;
 	margin-left: 1034px;
 	margin-top: 37px;
+	padding-right: 1px;
 }
 
 #photo_longchamp /* Photo Au coeur de l'eau chambre d'hôtes */
@@ -847,7 +852,7 @@ header nav a  /* header nav a responsive*/
     padding-top: 60px;
     padding-bottom: 48px;
     text-decoration: none;
-	margin-right: 555px;
+	margin-right: 565px;
 }
 
 
@@ -884,7 +889,7 @@ width: 100%;
 	visibility:visible;
 	display: flex;
 	justify-content:flex-start;
-	width: 41%;
+	width: 39%;
 	height: 48px;
 	margin-top: 25px;
 	border:solid 1px #F2F2F2;
