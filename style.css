@@ -188,7 +188,7 @@ h1 /* Trouvez votre Hébergements... */
 	
 }
 
-button /* texte rechercher */
+.bouton_recherche /* texte rechercher */
 {
 	display: flex;
 	justify-content: center;
@@ -198,6 +198,12 @@ button /* texte rechercher */
 	border-radius: 0px 13px 13px 0px;
 	padding-top: 3px;
 	color: white;
+}
+
+.bouton_responsive
+{
+	display: none;
+	visibility: hidden;
 }
 
 #search_text
@@ -261,7 +267,7 @@ margin-bottom: -2px;
 	color: #DEEBFF ;
 }
 
-.colorfiltres /* couleur des îcones */
+.filtre .colorfiltres /* couleur des îcones */
 {
 color: #0065FC ;
 font-size: 15px;
@@ -804,12 +810,14 @@ header /* Header responsive*/
     justify-content: flex-end;
     flex-wrap: wrap;
     text-decoration: none;
+
 	
 }
 
 .logo_reservia /* Logp responsive*/
 {
 margin-right: auto;
+
 }
 
 header nav /* Nav header responsive*/
@@ -817,6 +825,8 @@ header nav /* Nav header responsive*/
     order: 1;
     flex: 1 100%;
     display: flex;
+	margin-left: 0px;
+	padding-right: 440px;
 }
 
 
@@ -826,8 +836,10 @@ header nav a  /* header nav a responsive*/
     text-align: center;
     padding-top: 0;
     font-size: 16px; 
-	padding-right: 90px;
+	padding-right: 100px;
+	margin-right: 0px;
 }
+
 
 .nav_text /* text nav responsive*/
 {
@@ -835,10 +847,11 @@ header nav a  /* header nav a responsive*/
     padding-top: 60px;
     padding-bottom: 48px;
     text-decoration: none;
+	margin-right: 555px;
 }
 
 
-header nav a:hover, header nav a:visited /* suvol nav responsive*/
+header nav a:hover/* suvol nav responsive*/
 {
     padding-top: 0px;
     border-top: 0px;
@@ -868,9 +881,10 @@ width: 100%;
 
 .barre_responsive/* Bloc rechercher */
 {
+	visibility:visible;
 	display: flex;
 	justify-content:flex-start;
-	width: 75%;
+	width: 41%;
 	height: 48px;
 	margin-top: 25px;
 	border:solid 1px #F2F2F2;
@@ -884,9 +898,10 @@ width: 100%;
 
 }
 
-#search_text
+.search_text
 {
 	width: 100%;
+	height: 46px;
 	border: #F2F2F2;
 	font-size: 17px;
 	padding-left: 20px;
@@ -897,9 +912,9 @@ width: 100%;
 {	
 	text-align: center;
 	width: 50px;
-	height: 70%;
+	height: 34px;
 	background-color: #F2F2F2;
-	padding-top: 15px;
+	padding-top: 14px;
 	padding-right: 6px;
 	padding-left: 5px;
 	border-radius: 13px 0px 0px 13px;
@@ -907,12 +922,19 @@ width: 100%;
 
 }
 
-button /* texte rechercher */
+.bouton_recherche /* texte rechercher */
 {
+	display: none;
+	
+}
+
+.bouton_responsive/* texte rechercher responsive*/
+{
+	visibility:visible;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 15%;
+	width: 50px;
 	height: 50px;
 	border: solid #0065FC;
 	background-color:#0065FC;
@@ -921,9 +943,7 @@ button /* texte rechercher */
 	color: white;
 	font-size: 15px;
 	margin-top: -1px;
-	
 }
-
 .filtre-text
 {
 	font-size: 15px;
@@ -953,7 +973,7 @@ font-size: 18px;
 
 .filtres /* Bloc des filtres responsive*/
 {
-    width: 350px;
+    width: 40%;
     margin-top: 10px;
 }
 
