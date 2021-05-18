@@ -481,7 +481,8 @@ h2 /* Texte de hebergement de Marseille */
 {
 	font-size: 18px;
 	font-weight: bold;
-	margin-right: 110px;
+	margin-right: 150px;
+	margin-left: 5px;
 	text-align: justify;
 }
 
