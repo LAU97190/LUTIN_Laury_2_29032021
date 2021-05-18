@@ -589,6 +589,7 @@ font-size: 14px;
 #activites_bloc /* Bloc Activités à Marseille*/
 {
 width: 80%;
+margin-bottom: 50px;
 }
 
 
@@ -722,7 +723,6 @@ flex-direction: row;
 	flex-direction: column;
 	justify-content:space-around;
 	margin-top: 30px;
-
 }
 
 
@@ -793,7 +793,7 @@ footer /* Footer */
 	height: 218px;
 	padding-left: 50px;
 	background-color:#F2F2F2;
-	margin-top: 60px;
+	
 }
 
 .bloc_footer /* Bloc texte footer*/
@@ -1126,6 +1126,11 @@ font-weight: bold;
 
 }
 
+.rangement1
+{
+	margin-left: -4px;
+}
+
 .vieux_port_bloc /* Bloc Vieux Port responsive*/
 {
 	margin-top: 0px;
@@ -1144,7 +1149,7 @@ font-weight: bold;
 {
 	margin-top: 25px;
     margin-left: 0px;
-	width:334px;
+	width:330px;
     height: 190px;
 }
 #photo_pomegues/* Photo Fort de Pomègues responsive*/
@@ -1198,9 +1203,10 @@ font-weight: bold;
 .longchamp_bloc /* Bloc Parc Longchamp responsive*/
 {
     width:334px;
-    height: 210px;
+    height: 190px;
 	margin-top: 25px;
     margin-left: 0px;
+	
 }
 
 #photo_longchamp /* Photo Parc Longchamp responsive*/
