@@ -97,7 +97,7 @@ width: 100%;
 header nav /* bloc de navigation */
 {
 	display: flex;
-	margin-left: 35%;
+	margin-left: 47%;
 }
 
 header nav a /*bloc nav */
@@ -335,11 +335,11 @@ font-size: 14px;
 {
 	display: flex;
 	flex-flow: column;
-	width: 38%;
+	width: 51%;
 	height: 625px;
 	background-color:#F2F2F2;
 	border-radius: 30px;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	padding-bottom: 40px;
 }
 .hebergements /* Texte de hebergement de Marseille */
@@ -475,7 +475,7 @@ font-size: 14px;
 {
 	display: flex;
 	flex-direction: column;
-	width: 13%;
+	width: 18%;
 	background-color:#F2F2F2;
 	border-radius: 30px;
 	padding-left: 25px;
@@ -509,7 +509,7 @@ font-size: 14px;
 .pop_bloc /* Bloc cards du bloc les plus populaires*/
 {
 	display: flex;
-	width: 95%; ;
+	width: 99%; ;
 	height: 145px;
 	background-color: white;
 	border-radius: 30px;
@@ -594,17 +594,17 @@ font-size: 14px;
 {
 display: flex;
 flex-direction: column;
-
-width: 100%;
 margin-bottom: 50px;
-
+width: 100%;
 }
 
 
 .cards_activites /* Bloc des cards du bloc Activités à Marseille*/
 {
 display: flex;
+width: 75%;
 margin-right: 45px;
+justify-content: space-around;
 }
 
 .lien_activites:hover /* Survole du texte du bloc Activités à Marseille*/
@@ -623,7 +623,7 @@ margin-right: 45px;
 	border-left: solid #F2F2F2;
 	border-right: solid #F2F2F2;
 	border-radius: 30px;
-	margin-right: 45px;
+
 
 }
 
@@ -642,7 +642,7 @@ margin-right: 45px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	margin-right: 45px;
+
 }
 
 .titre-activite /* Titre Activiés à Marseille */
@@ -659,7 +659,6 @@ margin-right: 45px;
 {
 	display:flex;
 	flex-direction: column;
-	flex-grow: 1 0;
 	width: 304px;
 	height: 235px;
 	border-bottom:solid #F2F2F2;
@@ -684,7 +683,7 @@ margin-right: 45px;
 {
 	display:flex;
 	flex-direction: column;
-	
+	align-self: flex-end;
 	width: 304px;
 	height: 165px;
 	border-bottom:solid #F2F2F2;
@@ -729,20 +728,11 @@ margin-right: 45px;
 	object-fit: cover;	
 }
 
-.rangement2
-{
-	display: flex;
-	flex-direction: column;
-	justify-content:space-around;
-	
-}
-
-
 .garde_bloc /* Bloc  Notre-Dame-de-la-Garde*/
 {
 	display:flex;
 	flex-direction: column;
-	margin-left: 45px;
+	
 	width: 300px;
 	height: 195px;
 	border-bottom:solid #F2F2F2;
@@ -773,7 +763,8 @@ margin-right: 45px;
 	border-right: solid #F2F2F2;
 	border-radius: 30px;
 	padding-right: 1px;
-	margin-left: 45px;
+	align-self: flex-end;
+	justify-self: flex-start;
 }
 
 #photo_longchamp /* Photo Au coeur de l'eau chambre d'hôtes */
