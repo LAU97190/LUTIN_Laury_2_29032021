@@ -51,7 +51,7 @@ table {
 #bloc_page /* Bloc page*/
 {
 	width: 100%;
-
+   
 }
 
 @font-face
@@ -804,7 +804,7 @@ margin-right: auto;
 footer /* Footer */
 {
 	display: flex;
-	max-width: 70%;
+	max-width: 100%;
 	height: 218px;
 	padding-left: 50px;
 	background-color:#F2F2F2;
@@ -948,12 +948,7 @@ footer a  /* Titre footer*/
 		flex-wrap: nowrap;
 		flex-grow: 2 0;
 	}
-	
-	.hebergements
-	{
-	
-	}
-	
+		
 	.bloca_top
 	{
 		margin-left: 0px;
@@ -1006,7 +1001,6 @@ footer a  /* Titre footer*/
 		display: flex;
 		justify-content: space-between;
 		max-width: 95%;
-		
 	}
 	.vieux_port_bloc /* Bloc Vieux Port */
 	{		
@@ -1188,11 +1182,8 @@ footer a  /* Titre footer*/
     header /* Header responsive*/
     {
         display: flex;
-      
         flex-wrap: wrap;
-        text-decoration: none;
-		
-        
+        text-decoration: none;      
     }
 
     .logo_reservia /* Logp responsive*/
@@ -1643,9 +1634,7 @@ footer a  /* Titre footer*/
     {
         display: flex;
         flex-wrap: wrap;
-        text-decoration: none;
-
-        
+        text-decoration: none;    
     }
 
     .logo_reservia /* Logp responsive*/
@@ -1670,17 +1659,18 @@ footer a  /* Titre footer*/
         text-align: center;
         padding-top: 0;
         font-size: 16px; 
-        padding-right: 100px;
+        padding-right: 0px;
         margin-right: 0px;
     }
 
     .nava1 /* nav a Hébergements responsive*/
     {
+        border-top: none;
         border-bottom: solid#0065FC ;
     }
     .nav_text /* text nav responsive*/
     {
-        margin-right: 135px;
+        margin-right: 15.5%;
         padding-top: 60px;
         padding-bottom: 48px;
         text-decoration: none;
