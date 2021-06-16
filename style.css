@@ -95,13 +95,14 @@ width: 100%;
 	
 	height: 35px;
 	margin-top: 53px;
+    margin-right: auto;
 
 }
 
 header nav /* bloc de navigation */
 {
 	display: flex;
-	margin-left: 60%;
+	justify-content: flex-end;
 }
 
 header nav a /*bloc nav */
@@ -1621,7 +1622,7 @@ footer a  /* Titre footer*/
 
 }
 
-@media screen and (max-width: 576px)
+@media screen (max-width: 576px) 
 
 { 
 
