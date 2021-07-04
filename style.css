@@ -69,10 +69,6 @@ margin-left: 45px;
 justify-content: flex-end;
 }
 
-.nava1 /* nav a Hébergements responsive*/
-{
-    border-top: solid#0065FC ;
-}
 
 .section-info/* Bloc hearder */
 {
@@ -205,6 +201,7 @@ h1 /* Trouvez votre Hébergements... */
 	border-radius: 0px 13px 13px 0px;
 	padding-top: 3px;
 	color: white;
+    border: none;
 }
 
 .bouton_responsive
@@ -387,7 +384,7 @@ font-size: 14px;
 {
 	display: flex;
 	flex-direction: column;
-	max-width: 22% ;
+	max-width: 25% ;
 	height: 200px;
 	border:solid white;
 	background-color: white;
@@ -395,6 +392,7 @@ font-size: 14px;
 	margin-right: 30px;
 	margin-bottom: 40px;
 	flex-shrink: 1;
+    box-shadow: 0px 0px 20px 0px grey;
 }
 
 .hotel_photo /* Bloc des photos hébergements à Marseille */
@@ -406,6 +404,7 @@ font-size: 14px;
 	margin-left: 5px;
 	margin-right: 5px;	
 	object-fit: cover;
+    box-shadow: 30px 30px 30px 30px #F2F2F2;
 }
 
 
@@ -492,11 +491,14 @@ font-size: 14px;
 	font-weight: bold;
 	margin-left: 5px;
 	text-align: justify;
+    margin-right: auto;
 }
 
 #chart /* fontwasome du bloc haut les plus populaires */
 {
 	margin-top: 45px;
+    display: flex;
+    justify-content: flex-end;
 }
 .icone-chart
 {
@@ -521,6 +523,7 @@ font-size: 14px;
 	border-radius: 30px;
 	margin-top: 30px ;
 	margin-bottom: 20px;
+    box-shadow: 0px 0px 30px 0px grey;
 }
 
 	
@@ -631,11 +634,8 @@ max-width: 85.5%;
 	flex-direction: column;
 	width: 304px;
 	height: 445px;
-	border-bottom:solid #F2F2F2;
-	border-left: solid #F2F2F2;
-	border-right: solid #F2F2F2;
-	border-radius: 30px;
-	
+    border-radius: 30px;
+	box-shadow: 0px 0px 30px 0px #F2F2F2;
 }
 
 #photo_vieux_port /* Photo Vieux Port */
@@ -656,9 +656,7 @@ max-width: 85.5%;
     flex-direction: column;
     width: 304px;
     height: 235px;
-    border-bottom:solid #F2F2F2;
-    border-left: solid #F2F2F2;
-    border-right: solid #F2F2F2;
+    box-shadow: 0px 0px 30px 0px #F2F2F2;
     border-radius: 30px;
     padding-right: 5px;
 	flex-shrink: 1;
@@ -681,9 +679,7 @@ max-width: 85.5%;
     align-self: flex-end;
     width: 304px;
     height: 165px;
-    border-bottom:solid #F2F2F2;
-    border-left: solid #F2F2F2;
-    border-right: solid #F2F2F2;
+    box-shadow: 0px 0px 30px 0px #F2F2F2;
     border-radius: 30px;
     padding-right: 1px;
 	margin-left: -26.5%;
@@ -706,9 +702,7 @@ max-width: 85.5%;
 	flex-direction: column;
 	width: 304px;
 	height: 445px;
-	border-bottom:solid #F2F2F2;
-	border-left: solid #F2F2F2;
-	border-right: solid #F2F2F2;
+	box-shadow: 0px 0px 30px 0px #F2F2F2;
 	border-radius: 30px;
 	padding-right: 1px;
 
@@ -729,9 +723,7 @@ max-width: 85.5%;
     flex-direction: column;
     width: 300px;
     height: 195px;
-    border-bottom:solid #F2F2F2;
-    border-left: solid #F2F2F2;
-    border-right: solid #F2F2F2;
+    box-shadow: 0px 0px 30px 0px #F2F2F2;
     border-radius: 30px;
     padding-right: 1px;
 	flex-shrink: 1;
@@ -752,9 +744,7 @@ max-width: 85.5%;
     flex-direction: column;
     width: 300px;
     height: 210px;
-    border-bottom:solid #F2F2F2;
-    border-left: solid #F2F2F2;
-    border-right: solid #F2F2F2;
+    box-shadow: 0px 0px 30px 0px #F2F2F2;
     border-radius: 30px;
     padding-right: 1px;
     align-self: flex-end;
@@ -790,8 +780,7 @@ max-width: 85.5%;
 footer /* Footer */
 {
 	display: flex;
-	justify-content: space-around;
-    height: 218px;
+	height: 218px;
 	padding-left: 50px;
 	background-color:#F2F2F2;
 	
@@ -803,8 +792,7 @@ footer /* Footer */
 	flex-direction: column;
 	margin-top: 50px;
 	text-align: justify;
-	
-	margin-right: 13%;
+	margin-right: 19%;
 }
 
 footer a  /* Titre footer*/
@@ -855,7 +843,10 @@ footer a  /* Titre footer*/
          padding-right: 0px;
          margin-left: 0%;
      }
-     
+     #chart
+   {
+       max-width: 97%;
+   }
      .blocb  /* Bloc cards du bloc les plus populaires */
      {
          display: flex;
@@ -987,7 +978,10 @@ footer a  /* Titre footer*/
   {
       margin-bottom: 20px;
   }
-  
+  #chart
+   {
+       max-width: 97%;
+   }
     .star_pop
   {
     margin-top: 20%;
@@ -1001,6 +995,10 @@ footer a  /* Titre footer*/
 }
 @media screen and (max-width: 910px)
 {
+#chart
+{
+    max-width: 97%;
+}
 .pop_bloc
 {
     flex: 1 40%;
@@ -1025,6 +1023,11 @@ footer a  /* Titre footer*/
         display: flex;
         flex-wrap: wrap;
     }
+   
+   #chart
+   {
+       max-width: 97%;
+   }
     .blocb
     {
         display: flex;
@@ -1185,15 +1188,12 @@ footer a  /* Titre footer*/
         flex-direction: column;
         background-color:#F2F2F2;
         padding-bottom: 30px;
-
+        margin-top: 13%
     }
 
     footer a /* Titre footer responsive*/
-    {
-        
-        font-size: 20px;
-        margin-left: -56px;
-        
+    {  
+        font-size: 20px;   
     }
 
 
@@ -1209,7 +1209,6 @@ footer a  /* Titre footer*/
     {
         margin-top: 0px;
         font-size: 16px;
-        margin-left: -56px;
     }
 
 }
@@ -1253,15 +1252,10 @@ footer a  /* Titre footer*/
         margin-right: 0px;
     }
 
-    .nava1 /* nav a Hébergements responsive*/
-    {
-        border-top: none;
-        border-bottom: solid#0065FC ;
-    }
-    .nav_text /* text nav responsive*/
+       .nav_text /* text nav responsive*/
     {
         margin-right: 13.5%;
-        padding-top: 60px;
+        padding-top: 76px;
         padding-bottom: 48px;
         text-decoration: none;
        
@@ -1365,18 +1359,18 @@ footer a  /* Titre footer*/
     {
         margin-top: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
+        margin-left: 0px;
+
     }
 
 
     .filtre /* filtre responsive*/
     {
-    margin-left: -85px;
-    margin-right: 85px;     
-    margin-top: 15px;
-    font-size: 20px;
-    flex-shrink: 1;
-  
+        margin-top: 15px;
+        font-size: 20px;
+        flex-shrink: 1;
+     
     }
 
     .info-logement /* Bloc info responsive*/
@@ -1405,24 +1399,32 @@ footer a  /* Titre footer*/
             
     }
 
+       .populaire /* bloc Les plus populaires responsive*/
+    {
+        max-width: 84%;
+        padding-left: 0px;
+        margin-left: -10%;
+    }
+    #chart
+    {
+        max-width: 88%;
+    }
     .titre-populaire /* Titre bloc Les plus populaires responsive*/
     {
-    margin-left: 8px;
-    margin-right: 140px;
-    }
-
-
-    .populaire /* bloc Les plus populaires responsive*/
-    {
-        max-width: 77%;
-        padding-bottom: 37px;
+    margin-left: 15%;
     }
 
     .blocb /* Bloc des cards  du bloc Les plus populaires responsive*/
     {
-    margin-left: 0px;
+    margin-left: 11%;
     max-width: 85%;
     flex-shrink: 1;
+    }
+    
+    .pop_bloc
+    {
+        width: 91%;
+        margin-bottom: 0px;
     }
     .photo_pop
     {
@@ -1593,9 +1595,9 @@ footer a  /* Titre footer*/
         width: 375px;
         display:flex;
         flex-direction: column;
-        background-color:hsl(0, 0%, 95%);
         padding-bottom: 30px;
         margin-top: 15%;
+    
     }
 
     footer a /* Titre footer responsive*/
