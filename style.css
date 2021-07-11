@@ -248,7 +248,7 @@ margin-top: -35px;
 margin-left: 85px;
 margin-right: 25px;
 margin-bottom: 40px;
-font-size: 15p
+font-size: 15px
 }
 
 .filtre /* Bloc des  filtres */
@@ -339,7 +339,7 @@ font-size: 14px;
 	padding-bottom: 40px;
 	flex-shrink: 1;
 }
-.hebergements /* Texte de hebergement de Marseille */
+h2 /* Texte de hebergement de Marseille */
 {
 	font-size: 18px;
 	font-weight: bold;
