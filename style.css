@@ -248,7 +248,7 @@ margin-top: -35px;
 margin-left: 85px;
 margin-right: 25px;
 margin-bottom: 40px;
-font-size: 20px;
+font-size: 15p
 }
 
 .filtre /* Bloc des  filtres */
@@ -384,7 +384,7 @@ font-size: 14px;
 	margin-right: 30px;
 	margin-bottom: 40px;
 	flex-shrink: 1;
-    box-shadow: 3px 3px 3px 3px rgb(238, 236, 236);
+    box-shadow: 1px 1px 20px rgb(238, 236, 236);
 }
 
 .hotel_photo /* Bloc des photos hébergements à Marseille */
@@ -396,7 +396,6 @@ font-size: 14px;
 	margin-left: 5px;
 	margin-right: 5px;	
 	object-fit: cover;
-    box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
 }
 .text_prix /* texte des cards du bloc hébergements à Marseille */
 {
@@ -514,7 +513,7 @@ font-size: 14px;
 	border-radius: 30px;
 	margin-top: 30px ;
 	margin-bottom: 20px;
-    box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
+    box-shadow: 1px 1px 12px rgb(238, 236, 236);
 }
 
 	
@@ -618,7 +617,7 @@ max-width: 85.5%;
 	width: 304px;
 	height: 445px;
     border-radius: 30px;
-	box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
+	box-shadow: 1px 1px 20px rgb(238, 236, 236);
 }
 
 #photo_vieux_port /* Photo Vieux Port */
@@ -639,7 +638,7 @@ max-width: 85.5%;
     flex-direction: column;
     width: 304px;
     height: 235px;
-    box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
+    box-shadow: 1px 1px 20px rgb(238, 236, 236);
     border-radius: 30px;
     padding-right: 5px;
 	flex-shrink: 1;
@@ -662,7 +661,7 @@ max-width: 85.5%;
     align-self: flex-end;
     width: 304px;
     height: 165px;
-    box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
+    box-shadow: 1px 1px 20px rgb(238, 236, 236);
     border-radius: 30px;
     padding-right: 1px;
 	margin-left: -26.5%;
@@ -685,7 +684,7 @@ max-width: 85.5%;
 	flex-direction: column;
 	width: 304px;
 	height: 445px;
-	box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
+	box-shadow: 1px 1px 20px rgb(238, 236, 236);
 	border-radius: 30px;
 	padding-right: 1px;
 
@@ -706,7 +705,7 @@ max-width: 85.5%;
     flex-direction: column;
     width: 300px;
     height: 195px;
-    box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
+    box-shadow: 1px 1px 20px rgb(238, 236, 236);
     border-radius: 30px;
     padding-right: 1px;
 	flex-shrink: 1;
@@ -727,7 +726,7 @@ max-width: 85.5%;
     flex-direction: column;
     width: 300px;
     height: 210px;
-    box-shadow: 5px 5px 5px 5px rgb(238, 236, 236);
+    box-shadow: 1px 1px 20px rgb(238, 236, 236);
     border-radius: 30px;
     padding-right: 1px;
     align-self: flex-end;
@@ -827,9 +826,9 @@ footer a  /* Titre footer*/
          margin-left: 0%;
      }
      #chart
-   {
-       max-width: 97%;
-   }
+    {
+        max-width: 97%;
+    }
      .blocb  /* Bloc cards du bloc les plus populaires */
      {
          display: flex;
@@ -859,9 +858,8 @@ footer a  /* Titre footer*/
     
     .hotel_bloc
     {
-        max-width: max-content;
-        height: max-content;
-        flex: 1 25%;
+        max-width: 35%;
+        height: 29%;
         border:#F2F2F2 solid ;
     }
 
@@ -974,7 +972,10 @@ footer a  /* Titre footer*/
   {
     margin-left: 0px;
   }
-
+  .hotel_bloc
+  {
+      max-width: 35%;
+  }
 }
 @media screen and (max-width: 910px)
 {
@@ -1061,7 +1062,10 @@ footer a  /* Titre footer*/
         display: flex;
         flex-direction: column;     
     }
-
+    .hotel_bloc
+    {
+        max-width: 44%;
+    }
 
     .star_hebergement /* étoile hébergement à  Marseille responsive*/
     {
@@ -1237,7 +1241,6 @@ footer a  /* Titre footer*/
 
        .nav_text /* text nav responsive*/
     {
-        margin-right: 13.5%;
         padding-top: 76px;
         padding-bottom: 48px;
         text-decoration: none;
@@ -1278,7 +1281,7 @@ footer a  /* Titre footer*/
         visibility:visible;
         display: flex;
         justify-content:flex-start;
-        max-width: 65%;
+        max-width: 81%;
         height: 48px;
         margin-top: 25px;
         border:solid 1px #F2F2F2;
@@ -1293,8 +1296,8 @@ footer a  /* Titre footer*/
         height: 34px;
         background-color: #F2F2F2;
         padding-top: 14px;
-        padding-right: 6px;
-        padding-left: 5px;
+        padding-right: 20px;
+        padding-left: 20px;
         border-radius: 13px 0px 0px 13px;
         font-size: 20px;
 
@@ -1344,15 +1347,21 @@ footer a  /* Titre footer*/
         display: flex;
         justify-content: flex-start;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     .filtre /* filtre responsive*/
     {
         margin-top: 15px;
-        font-size: 20px;
+        font-size: 15px;
         flex-shrink: 1;
+        margin-right: 12px;
     }
 
+    .iconename
+    {
+        margin-right: 10px;
+    }
     .info-logement /* Bloc info responsive*/
     { 
         display: flex;
@@ -1383,6 +1392,8 @@ footer a  /* Titre footer*/
     {
         padding-left: 0px;
         margin-left: -10%;
+        min-width: 0%;
+        border-radius: 0px;
     }
     #chart
     {
@@ -1402,7 +1413,7 @@ footer a  /* Titre footer*/
     
     .pop_bloc
     {
-        max-width: 83%;
+        max-width: 84%;
         margin-bottom: 0px;
     }
     .photo_pop
@@ -1450,7 +1461,7 @@ footer a  /* Titre footer*/
     {
     display: flex;
     justify-content: space-around;
-    max-width:max-content;
+    max-width: 94%;
     height: 200px;
     border:solid 0.5px #F2F2F2;
     margin-left: -45px;
@@ -1458,7 +1469,7 @@ footer a  /* Titre footer*/
 
     .hotel_photo /* Photo hôtel hébergement à  Marseille responsive*/
     {
-    width: 385px;
+    width: 97%;
     }
 
     .star_hebergement /* étoile hébergement à  Marseille responsive*/
@@ -1470,90 +1481,25 @@ footer a  /* Titre footer*/
     {
     margin-left: 0px;
     font-weight: bold;
-
     }
-
     
-    .vieux_port_bloc /* Bloc Vieux Port responsive*/
+    .activites
+    {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    .vieux_port_bloc, .pomegues_bloc, .friou_bloc,.calanque_bloc,.garde_bloc, .longchamp_bloc  /* Bloc cards activités à Marseille responsive*/
     {
         margin-top: 0px;
         margin-left: 0px;   
-        width: max-content;
+        width: 100%;
         height: 190px;
+        margin-top: 20px;
     }
 
-    #photo_vieux_port /* Photo Vieux Port responsive*/
+    #photo_vieux_port, #photo_pomegues, #photo_frioul, #photo_calanques, #photo_garde, #photo_longchamp  /* Photo Vieux Port responsive*/
     {
-        width: 385px;
-        height: 135px;
-    }
-
-    .pomegues_bloc /* Bloc Fort de Pomègues responsive*/
-    {
-        margin-top: 25px;
-        margin-left: 0px;
-        width: max-content;
-        height: 190px;
-    }
-    #photo_pomegues/* Photo Fort de Pomègues responsive*/
-    {
-        width: 385px;
-        height: 135px;
-    }
-
-    .friou_bloc /* Bloc Îles de Friou responsive*/
-    {
-        margin: 0px;
-        width: max-content;
-        height: 190px;
-        margin-top: 25px;
-        margin-left: 0px;
-    }
-    #photo_frioul /* Photo Îles de Friou responsive*/
-    {
-        width: 385px;
-        height: 135px;
-    }
-
-    .calanque_bloc /* Bloc Parc National de Calancque responsive*/
-    {
-        width: max-content;
-        height: 190px;
-        margin-top: 25px;
-        margin-left: 0px;
-    }
-
-    #photo_calanques /* Photo Parc National de Calancque responsive*/
-    {
-        width: 385px;
-        height: 135px;
-    }
-
-    .garde_bloc /* Bloc Notre dame de la garde responsive*/
-    {
-        width: max-content;
-        height: 190px;  
-        margin-top: 25px;
-        margin-left: 0px;
-    }
-
-    #photo_garde /* Photo Notre dame de la garde responsive*/
-    {
-        width: 385px;
-        height: 135px;
-    }
-    .longchamp_bloc /* Bloc Parc Longchamp responsive*/
-    {
-        width: max-content;
-        height: 190px;
-        margin-top: 25px;
-        margin-left: 0px;
-        
-    }
-
-    #photo_longchamp /* Photo Parc Longchamp responsive*/
-    {
-        width: 385px;
+        width: 100%;
         height: 135px;
     }
 
