@@ -1218,7 +1218,7 @@ footer a  /* Titre footer*/
     .logo_reservia /* Logp responsive*/
     {
         margin-right: auto;
-        margin-left: 45px;
+        margin-left: 10px;
         width: 95px ;
         height: 50px;
         margin-top: 55px;
@@ -1240,7 +1240,7 @@ footer a  /* Titre footer*/
         padding-top: 0;
         font-size: 16px; 
         padding-right: 0px;
-        margin-right: -65px;
+        margin-right: 0px;
     }
 
        .nav_text /* text nav responsive*/
@@ -1260,6 +1260,10 @@ footer a  /* Titre footer*/
         padding-bottom: 17px;
     }
 
+    .section-info
+    {
+        margin-left: 25px;
+    }
     .p1 /* Paragraphe En plein centre ... */ 
     {
         font-size: 16px;
