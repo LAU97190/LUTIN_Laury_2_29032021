@@ -376,7 +376,6 @@ h2 /* Texte de hebergement de Marseille */
 {
 	display: flex;
 	flex-direction: column;
-	max-width: 25% ;
 	height: 200px;
 	border:solid white;
 	background-color: white;
@@ -858,7 +857,6 @@ footer a  /* Titre footer*/
     
     .hotel_bloc
     {
-        max-width: 35%;
         height: 29%;
         border:#F2F2F2 solid ;
     }
@@ -972,10 +970,7 @@ footer a  /* Titre footer*/
   {
     margin-left: 0px;
   }
-  .hotel_bloc
-  {
-      max-width: 35%;
-  }
+ 
 }
 @media screen and (max-width: 910px)
 {
@@ -1065,11 +1060,7 @@ footer a  /* Titre footer*/
         display: flex;
         flex-direction: column;     
     }
-    .hotel_bloc
-    {
-        max-width: 44%;
-    }
-
+    
     .star_hebergement /* étoile hébergement à  Marseille responsive*/
     {
     margin-right: 250px;
@@ -1103,7 +1094,6 @@ footer a  /* Titre footer*/
         margin-left: 0px;
         width:330px;
         height: 190px;
-        flex:1 27%;
     }
     #photo_pomegues/* Photo Fort de Pomègues responsive*/
     {
@@ -1172,7 +1162,6 @@ footer a  /* Titre footer*/
 
     footer /* Footer responsive*/
     {
-        width: 375px;
         height: 486px;
         display:flex;
         flex-direction: column;
@@ -1468,7 +1457,6 @@ footer a  /* Titre footer*/
     {
     display: flex;
     justify-content: space-around;
-    max-width: 94%;
     height: 200px;
     border:solid 0.5px #F2F2F2;
     margin-left: -45px;
@@ -1512,7 +1500,6 @@ footer a  /* Titre footer*/
 
     footer /* Footer responsive*/
     {
-        width: 100%;
         display:flex;
         flex-direction: column;
         padding-bottom: 30px;
