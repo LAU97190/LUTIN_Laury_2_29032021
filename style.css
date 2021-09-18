@@ -57,11 +57,11 @@ table {
 body /* Bloc body */
 {
 	font-family: 'Raleway', TimesNewRoman, serif;
+    max-width: 1840px;
 }
 
 header/* hearder info */
 {
-
 max-width: 83%;
 display: flex;
 margin-bottom: 45px;
